@@ -35,3 +35,11 @@ li a:hover {
     background-color: rgb(109, 108, 108);
 }
 
+.projeto{
+    text-indent: 35px;
+}
+
+.projeto a{
+    padding-left:35px;
+}
+
