@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  11 MAY 2021 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  12 MAY 2021 01:21
 entering extended mode
 **"./Projeto REA.tex"
 (Projeto REA.tex
@@ -623,59 +623,487 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys
+.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count310
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2021/01/20 v3.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count311
+\FV@InFile=\read3
+\FV@TabBox=\box108
+\c@FancyVerbLine=\count312
+\FV@StepNumber=\count313
+\FV@OutFile=\write3
+) (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count314
+\output=\toks28
+\linenoprevgraf=\count315
+\linenumbersep=\dimen187
+\linenumberwidth=\dimen188
+\c@linenumber=\count316
+\c@pagewiselinenumber=\count317
+\c@LN@truepage=\count318
+\c@internallinenumber=\count319
+\c@internallinenumbers=\count320
+\quotelinenumbersep=\dimen189
+\bframerule=\dimen190
+\bframesep=\dimen191
+\bframebox=\box109
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count321
+\c@FV@TrueTabCounter=\count322
+\FV@TabBox@Group=\box110
+\FV@TmpLength=\skip106
+\c@FV@HighlightLinesStart=\count323
+\c@FV@HighlightLinesStop=\count324
+\FV@LoopCount=\count325
+\FV@NCharsBox=\box111
+\FV@BreakIndent=\dimen192
+\FV@BreakIndentNChars=\count326
+\FV@BreakSymbolSepLeft=\dimen193
+\FV@BreakSymbolSepLeftNChars=\count327
+\FV@BreakSymbolSepRight=\dimen194
+\FV@BreakSymbolSepRightNChars=\count328
+\FV@BreakSymbolIndentLeft=\dimen195
+\FV@BreakSymbolIndentLeftNChars=\count329
+\FV@BreakSymbolIndentRight=\dimen196
+\FV@BreakSymbolIndentRightNChars=\count330
+\c@FancyVerbLineBreakLast=\count331
+\FV@LineBox=\box112
+\FV@LineIndentBox=\box113
+\FV@LineWidth=\dimen197
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\shellesc.
+sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/ifplatform\ifplatform
+.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile
+.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)) (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.st
+y
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\integerpart=\count332
+\decimalpart=\count333
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+) (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip107
+\fb@frw=\dimen198
+\fb@frh=\dimen199
+\FrameRule=\dimen256
+\FrameSep=\dimen257
+) (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count334
+\float@exts=\toks29
+\float@box=\box114
+\@float@everytoks=\toks30
+\@floatcapt=\box115
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box116
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count335
+\c@minted@pygmentizecounter=\count336
+\@float@every@listing=\toks31
+\c@listing=\count337
+)
+runsystem(if not exist _minted-Projeto_REA mkdir _minted-Projeto_REA)...execute
+d.
+
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.s
+ty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen258
+\pgfutil@tempdimb=\dimen259
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common-lists.tex))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-latex.def
+\pgfutil@abb=\box117
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
+x)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ysfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen260
+\pgf@y=\dimen261
+\pgf@xa=\dimen262
+\pgf@ya=\dimen263
+\pgf@xb=\dimen264
+\pgf@yb=\dimen265
+\pgf@xc=\dimen266
+\pgf@yc=\dimen267
+\pgf@xd=\dimen268
+\pgf@yd=\dimen269
+\w@pgf@writea=\write5
+\r@pgf@reada=\read5
+\c@pgf@counta=\count338
+\c@pgf@countb=\count339
+\c@pgf@countc=\count340
+\c@pgf@countd=\count341
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count342
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-pdftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count343
+\pgfsyssoftpath@bigbuffer@items=\count344
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
+c.code.tex
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen270
+\pgfmath@count=\count345
+\pgfmath@box=\box118
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count346
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen271
+\pgf@picmaxx=\dimen272
+\pgf@picminy=\dimen273
+\pgf@picmaxy=\dimen274
+\pgf@pathminx=\dimen275
+\pgf@pathmaxx=\dimen276
+\pgf@pathminy=\dimen277
+\pgf@pathmaxy=\dimen278
+\pgf@xx=\dimen279
+\pgf@xy=\dimen280
+\pgf@yx=\dimen281
+\pgf@yy=\dimen282
+\pgf@zx=\dimen283
+\pgf@zy=\dimen284
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen285
+\pgf@path@lasty=\dimen286
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen287
+\pgf@shorten@start@additional=\dimen288
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box119
+\pgf@hbox=\box120
+\pgf@layerbox@main=\box121
+\pgf@picture@serial@count=\count347
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen289
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen290
+\pgf@pt@y=\dimen291
+\pgf@pt@temp=\dimen292
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen293
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen294
+\pgf@sys@shading@range@num=\count348
+\pgf@shadingcount=\count349
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box122
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box123
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen295
+\pgf@nodesepend=\dimen296
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\verbatim.
+sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks42
+\verbatim@line=\toks43
+\verbatim@in@stream=\read6
+)
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces
+.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box124
+\tcb@upperbox=\box125
+\tcb@lowerbox=\box126
+\tcb@phantombox=\box127
+\c@tcbbreakpart=\count350
+\c@tcblayer=\count351
+\c@tcolorbox@number=\count352
+\tcb@temp=\box128
+\tcb@temp=\box129
+\tcb@temp=\box130
+\tcb@temp=\box131
+\tcb@out=\write6
+\tcb@record@out=\write7
+)
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks28
-\thm@bodyfont=\toks29
-\thm@headfont=\toks30
-\thm@notefont=\toks31
-\thm@headpunct=\toks32
-\thm@preskip=\skip106
-\thm@postskip=\skip107
-\thm@headsep=\skip108
-\dth@everypar=\toks33
+\thm@style=\toks44
+\thm@bodyfont=\toks45
+\thm@headfont=\toks46
+\thm@notefont=\toks47
+\thm@headpunct=\toks48
+\thm@preskip=\skip108
+\thm@postskip=\skip109
+\thm@headsep=\skip110
+\dth@everypar=\toks49
 )
-\c@mydef=\count310
+\c@mydef=\count353
+runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > Pr
+ojeto_REA.aex <nul: /p x=^%~$PATH:i>> Projeto_REA.aex)...executed.
+
+runsystem(del Projeto_REA.aex)...executed.
+
 
 (Projeto REA.aux)
 \openout1 = `"Projeto REA.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 81.
+(lastpage)             ! on input line 90.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: Trying Plan B...
+Package newfloat Info: `float' package detected.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count311
-\scratchdimen=\dimen187
-\scratchbox=\box108
-\nofMPsegments=\count312
-\nofMParguments=\count313
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count314
-\MPscratchDim=\dimen188
-\MPnumerator=\count315
-\makeMPintoPDFobject=\count316
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count354
+\scratchdimen=\dimen297
+\scratchbox=\box132
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen298
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks51
 )
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
 -base.sty
@@ -688,38 +1116,38 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 81.
+Package chemgreek Info: Activating mapping `default' on line 90.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 83.
+ 92.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 83.
+ 92.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 83.
+ 92.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 83.
+ 92.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
 
 [1
 
@@ -727,25 +1155,25 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 Non-PDF special ignored!
 <special> papersize=210mm,297mm
 {C:/Users/T-Gamer/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 84--84
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 93--93
   $[]$ 
  []
 
 [1] (Projeto REA.lof)
-\tf@lof=\write3
-\openout3 = `"Projeto REA.lof"'.
+\tf@lof=\write8
+\openout8 = `"Projeto REA.lof"'.
 
  [1
 
 ] (Projeto REA.lot)
-\tf@lot=\write4
-\openout4 = `"Projeto REA.lot"'.
+\tf@lot=\write9
+\openout9 = `"Projeto REA.lot"'.
 
  [2
 
 ] (Projeto REA.toc)
-\tf@toc=\write5
-\openout5 = `"Projeto REA.toc"'.
+\tf@toc=\write10
+\openout10 = `"Projeto REA.toc"'.
 
  [3
 
@@ -761,61 +1189,117 @@ Package newfloat Info: Setting Plan B file extension to `loa'... on input line
 ]
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Reference `sec:objespecif' on page 14 undefined on input line 7.
+LaTeX Font Warning: Command \large invalid in math mode on input line 12.
 
-
-
-LaTeX Warning: Citation `WiFi2020' on page 14 undefined on input line 12.
-
-
-LaTeX Warning: Citation `datasheet8266' on page 14 undefined on input line 12.
-
-<./esp8266.png, id=23, 344.78813pt x 194.97844pt>
-File: ./esp8266.png Graphic file (type png)
-<use ./esp8266.png>
-Package pdftex.def Info: ./esp8266.png  used on input line 16.
-(pdftex.def)             Requested size: 179.24963pt x 101.36555pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
 [14
 
- <./esp8266.png>]
-<./hc05.jpg, id=28, 263.48438pt x 263.48438pt>
-File: ./hc05.jpg Graphic file (type jpg)
-<use ./hc05.jpg>
-Package pdftex.def Info: ./hc05.jpg  used on input line 27.
-(pdftex.def)             Requested size: 179.24963pt x 179.25946pt.
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-3.
+]
 
+LaTeX Font Warning: Command \large invalid in math mode on input line 32.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 41.
+
+[15]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 43.
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
+7.
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
-4.
+\openout3 = `Projeto_REA.pyg'.
 
+
+(_minted-Projeto_REA/default-pyg-prefix.pygstyle)
+(_minted-Projeto_REA/default.pygstyle)
+(_minted-Projeto_REA/188B8E2F5CA71057CB12436B50553ABA7448588429FAB49624D8BB8680
+FB4D0D.pygtex
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <12> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 5.
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 7
+.
+
+(C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)
+LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <12> not available
+(Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 7.
+)
+<./Imagens/Regressão Linear/RL1.png, id=37, 432.61626pt x 358.33875pt>
+File: ./Imagens/Regressão Linear/RL1.png Graphic file (type png)
+<use ./Imagens/Regressão Linear/RL1.png>
+Package pdftex.def Info: ./Imagens/Regressão Linear/RL1.png  used on input lin
+e 88.
+(pdftex.def)             Requested size: 268.8813pt x 222.72545pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+
+[16]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/0C5A67FF26BF2D28787E6CD65FBFA77C7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [17 <./Imagens/Regressão Linear/RL1.png>]
+<./Imagens/Regressão Linear/RL2.png, id=49, 432.61626pt x 358.33875pt>
+File: ./Imagens/Regressão Linear/RL2.png Graphic file (type png)
+<use ./Imagens/Regressão Linear/RL2.png>
+Package pdftex.def Info: ./Imagens/Regressão Linear/RL2.png  used on input lin
+e 123.
+(pdftex.def)             Requested size: 268.8813pt x 222.72545pt.
+ [18]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 130.
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+35.
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-(capitulos/capitulo3.tex [15 <./hc05.jpg>]
+)
+[19 <./Imagens/Regressão Linear/RL2.png>]) (capitulos/capitulo3.tex
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 9.
+
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/A58F543871ABFBB4626832DD5A93A3217448588429FAB49624D8BB8680
+FB4D0D.pygtex) [20] [21]
+Overfull \vbox (118.14503pt too high) has occurred while \output is active []
+
+
+[22]
+<./Imagens/Teorema de Bayes/Tabela.png, id=67, 243.15843pt x 358.33875pt>
+File: ./Imagens/Teorema de Bayes/Tabela.png Graphic file (type png)
+<use ./Imagens/Teorema de Bayes/Tabela.png>
+Package pdftex.def Info: ./Imagens/Teorema de Bayes/Tabela.png  used on input l
+ine 67.
+(pdftex.def)             Requested size: 268.8813pt x 396.24614pt.
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/553F16B32E793939CFBABC9DDAC376137448588429FAB49624D8BB8680
+FB4D0D.pygtex) [23 <./Imagens/Teorema de Bayes/Tabela.png>]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/D62B2968ED741AA539DCEEA0C48B24187448588429FAB49624D8BB8680
+FB4D0D.pygtex) [24]) (capitulos/capitulo4.tex [25]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 39.
+
+[26]) (capitulos/capitulo5.tex [27]
 Cap\'{\i }tulo 3.
-) (capitulos/capitulo4.tex [16
+) (capitulos/capitulo6.tex [28
 
 ]
 Cap\'{\i }tulo 4.
-) (capitulos/capitulo5.tex [17
-
-]
-Cap\'{\i }tulo 5.
-) (capitulos/capitulo6.tex [18
-
-]
-Cap\'{\i }tulo 6.
-) [19
+) [29
 
 ]
 No file "Projeto REA".bbl.
@@ -826,27 +1310,32 @@ AED: lastpage setting LastPage
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 (Projeto REA.aux)
-
-LaTeX Warning: There were undefined references.
+runsystem(del Projeto_REA.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 10437 strings out of 479321
- 174111 string characters out of 2855630
- 554585 words of memory out of 3000000
- 27621 multiletter control sequences out of 15000+600000
- 432996 words of font info for 90 fonts, out of 8000000 for 9000
+ 23184 strings out of 479321
+ 453518 string characters out of 2855630
+ 850505 words of memory out of 3000000
+ 40048 multiletter control sequences out of 15000+600000
+ 440863 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,13n,116p,597b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,8n,116p,771b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
-C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.p
-fb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a
-.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr
-8a.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on "Projeto REA.pdf" (12 pages, 311174 bytes).
+C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/T-Gamer/AppData/Local/Programs
+/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/T-Gamer/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/T-Gamer/AppData/Local/
+Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T-Gamer/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Projeto REA.pdf" (22 pages, 181211 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

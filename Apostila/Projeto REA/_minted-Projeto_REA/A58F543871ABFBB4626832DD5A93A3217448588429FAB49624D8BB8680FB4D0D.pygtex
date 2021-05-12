@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{getTempo}\PYG{p}{():}
+\PYG{k}{return} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}Claro\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Claro\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Claro\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Claro\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Claro\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Claro\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Chuvoso\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Chuvoso\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Chuvoso\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Chuvoso\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Chuvoso\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Chuvoso\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Geada\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Geada\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Geada\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Geada\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Geada\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Geada\PYGZsq{}}\PYG{p}{]}
+
+\PYG{k}{def} \PYG{n+nf}{getDiaSem}\PYG{p}{():}
+\PYG{k}{return} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Útil\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Feriado\PYGZsq{}}\PYG{p}{]}
+
+\PYG{k}{def} \PYG{n+nf}{getHorario}\PYG{p}{():}
+\PYG{k}{return} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}Manhã\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Almoço\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Noite\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Manhã\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Almoço\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Noite\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Manhã\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Almoço\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Noite\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Manhã\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Almoço\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Noite\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Manhã\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Almoço\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Noite\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Manhã\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Almoço\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Noite\PYGZsq{}}\PYG{p}{]}
+
+\PYG{k}{def} \PYG{n+nf}{getCongest}\PYG{p}{():}
+\PYG{k}{return} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Não\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}Sim\PYGZsq{}}\PYG{p}{]}
+
+\PYG{n}{Tempo} \PYG{o}{=} \PYG{n}{getTempo}\PYG{p}{()}
+\PYG{n}{diaDaSem} \PYG{o}{=} \PYG{n}{getDiaSem}\PYG{p}{()}
+\PYG{n}{Horario} \PYG{o}{=} \PYG{n}{getHorario}\PYG{p}{()}
+\PYG{n}{Congest} \PYG{o}{=} \PYG{n}{getCongest}\PYG{p}{()}
+
+\PYG{n}{pd}\PYG{o}{.}\PYG{n}{DataFrame}\PYG{p}{(}\PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{Tempo}\PYG{p}{,}\PYG{n}{diaDaSem}\PYG{p}{,}\PYG{n}{Horario}\PYG{p}{,}\PYG{n}{Congest}\PYG{p}{),}
+\PYG{n}{columns}\PYG{o}{=}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}Tempo\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}Dia da semana\PYGZsq{}}\PYG{p}{,}
+\PYG{l+s+s1}{\PYGZsq{}Horário\PYGZsq{}}\PYG{p}{,}\PYG{l+s+s1}{\PYGZsq{}Congestionamento\PYGZsq{}}\PYG{p}{])}
+\end{Verbatim}

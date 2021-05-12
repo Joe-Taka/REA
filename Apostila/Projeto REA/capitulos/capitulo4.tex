@@ -1,3 +1,50 @@
-\chapter{Experimentos e resultados}
+\section{Transformada de Fourier}
 
-% testes, integração, etc.
+\subsection{O que é a Transformada de Fourier?}
+
+A transformada de Fourier é uma transformação matemática que "quebra" uma forma de onda (função ou sinal) em uma soma de funções periódicas. A análise de Fourier converte um sinal do seu domínio original para uma representação no domínio da frequência.
+
+Jean-Baptiste Joseph Fourier (Auxerre, 21 de março de 1768 — Paris, 16 de maio de 1830) foi o matemático e físico francês que descobriu que todo sinal pode ser descrito como uma superposição de senóides complexas.
+
+\subsection{Sinais}
+Os sinais traduzem a evolução de uma grandeza ao longo do tempo ou espaço e podem ser classificados segundo os critérios:
+
+\begin{itemize}
+\item Continuidade: sinais contínuos ou discretos
+\item Periodicidade: sinais periódicos ou aperiódicos 
+\end{itemize}
+
+\subsubsection{Sinais contínuos}
+
+Um sinal diz-se contínuo se o seu domínio for IR ou um intervalo contínuo de IR. Assim:
+
+\[ x: IR \rightarrow IR \]
+
+\[ x: [a,b] \rightarrow IR \]
+
+- Sinais contínuos são sinais que não possuem espaços distinguíveis entre os seus valores.
+- Advém de grandezas que podem ser medidas.
+
+\subsubsection{Sinais discretos}
+\begin{itemize}
+\item Sinais discretos são sinais que possuem espaços entre os seus valores.
+\item Advém de grandezas que são contadas.
+\item Só os sinais discretos podem ser armazenados e processados em computadores digitais.
+\item Pode-se converter um sinal contínuo num sinal discreto através da coleção de amostras do sinal contínuo.
+\end{itemize}
+
+\subsubsection{Sinais periódicos}
+Um sinal discreto x(n) é periódico com período $N \ \in \ IN$ se:
+
+\[ \large x(n + N) = x(n), \forall \ n \ \in Z \]
+
+\subsection {Tipos de Abordagens}
+
+De acordo com o tipo de sinal que estamos lidando, existem 4 diferentes tipos de abordagem:
+\begin{itemize}
+\item Sinais contínuos e aperiódicos: Transformada de Fourier
+\item Sinais contínuos e periódicos: Série de Fourier
+\item Sinais discretos e aperiódicos: Transformada de Fourier de Tempo Discreto (TFTD)
+\item Sinais discretos e periódicos: Transformada Discreta de Fourier (TDF)
+\end{itemize}
+

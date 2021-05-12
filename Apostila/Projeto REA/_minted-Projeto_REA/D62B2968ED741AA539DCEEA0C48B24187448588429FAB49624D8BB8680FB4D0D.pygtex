@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} [\PYGZdq{}Geada\PYGZdq{}, \PYGZdq{}Útil\PYGZdq{}, \PYGZdq{}Manhã\PYGZdq{}]}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{modelo}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{([[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]]))}
+\PYG{c+c1}{\PYGZsh{} resultado = [1]}
+\PYG{c+c1}{\PYGZsh{} [\PYGZdq{}Claro\PYGZdq{}, \PYGZdq{}Feriado\PYGZdq{}, \PYGZdq{}Almoço\PYGZdq{}]}
+\PYG{n+nb}{print} \PYG{p}{(}\PYG{n}{modelo}\PYG{o}{.}\PYG{n}{predict}\PYG{p}{([[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{]]))}
+\PYG{c+c1}{\PYGZsh{} resultado = [0]}
+\end{Verbatim}

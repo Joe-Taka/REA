@@ -30,6 +30,15 @@
 \usepackage{pdflscape}
 \usepackage{url}
 
+% minted
+\usepackage{minted}
+
+% adicionando bordas ao código em 'minted'
+\usepackage{tcolorbox}
+\usepackage{etoolbox}
+\BeforeBeginEnvironment{minted}{\begin{tcolorbox}}%
+\AfterEndEnvironment{minted}{\end{tcolorbox}}%
+
 
 %\usepackage{hyperref}% link das res
 \newcommand\tab[1][1cm]{\hspace*{#1}}
@@ -112,7 +121,7 @@
 % listas (opcionais, mas recomenda-se a partir de 5 elementos)
 \listadefiguras % geracao automatica da lista de figuras
 \listadetabelas % geracao automatica da lista de tabelas
-%\listadequadros % adivinhe :)
+% \listadequadros % adivinhe :)
 % \listadesiglas % geracao automatica da lista de siglas
 % \listadesimbolos % geracao automatica da lista de simbolos
 

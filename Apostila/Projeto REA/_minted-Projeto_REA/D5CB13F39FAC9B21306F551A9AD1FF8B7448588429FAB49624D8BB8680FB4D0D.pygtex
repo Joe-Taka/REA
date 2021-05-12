@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{labelEncoder} \PYG{o}{=} \PYG{n}{preprocessing}\PYG{o}{.}\PYG{n}{LabelEncoder}\PYG{p}{()}
+\PYG{c+c1}{\PYGZsh{} Normalizando e aplicando o \PYGZsq{}fit\PYGZus{}transform\PYGZsq{}}
+\PYG{n}{normTempo} \PYG{o}{=} \PYG{n}{labelEncoder}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{(}\PYG{n}{tempo}\PYG{p}{)}
+\PYG{n}{normDiaDaSem} \PYG{o}{=} \PYG{n}{labelEncoder}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{(}\PYG{n}{diaDaSem}\PYG{p}{)}
+\PYG{n}{normHorario} \PYG{o}{=} \PYG{n}{labelEncoder}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{(}\PYG{n}{horario}\PYG{p}{)}
+\PYG{n}{normCongest} \PYG{o}{=} \PYG{n}{labelEncoder}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{(}\PYG{n}{congest}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}normalização\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{normTempo}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{normDiaDaSem}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{normHorario}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{normCongest}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Organizando os dados relevantes (features)}
+\PYG{n}{features} \PYG{o}{=} \PYG{p}{[]}
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{normTempo}\PYG{p}{)):}
+\PYG{n}{features}\PYG{o}{.}\PYG{n}{append}\PYG{p}{([}\PYG{n}{normTempo}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],} \PYG{n}{normDiaDaSem}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],}
+\PYG{n}{normHorario}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]])}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}features\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{features}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Aplicando o Método de Bayes}
+\PYG{n}{modelo} \PYG{o}{=} \PYG{n}{GaussianNB}\PYG{p}{()}
+\PYG{c+c1}{\PYGZsh{} Treinando o modelo}
+\PYG{n}{modelo}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{features}\PYG{p}{,} \PYG{n}{normCongest}\PYG{p}{)}
+\end{Verbatim}

@@ -3,20 +3,29 @@
 \contentsline {section}{\numberline {1.1}\MakeUppercase {Motivação}}{13}{}%
 \contentsline {section}{\numberline {1.2}\MakeUppercase {Objetivos}}{13}{}%
 \contentsline {chapter}{\numberline {2}\MakeUppercase {Exemplos}}{14}{}%
-\contentsline {section}{\numberline {2.1}\MakeUppercase {Exemplo de análise de tecnologia - Comunicação sem Fio}}{14}{}%
-\contentsline {subsection}{\numberline {2.1.1}Wi-Fi}{14}{}%
-\contentsline {subsection}{\numberline {2.1.2}Bluetooth}{15}{}%
-\contentsline {subsection}{\numberline {2.1.3}Comparativo entre tecnologias de comunicação sem fio}{15}{}%
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{16}{}%
-\contentsline {section}{\numberline {3.1}\MakeUppercase {Visão geral}}{16}{}%
-\contentsline {section}{\numberline {3.2}\MakeUppercase {Projeto mecânico}}{16}{}%
-\contentsline {section}{\numberline {3.3}\MakeUppercase {Projeto de \textit {hardware}}}{16}{}%
-\contentsline {section}{\numberline {3.4}\MakeUppercase {Projeto de \textit {software}}}{16}{}%
-\contentsline {section}{\numberline {3.5}\MakeUppercase {Integração}}{16}{}%
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Experimentos e resultados}}{17}{}%
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Cronograma e custos do projeto}}{18}{}%
-\contentsline {section}{\numberline {5.1}\MakeUppercase {Cronograma}}{18}{}%
-\contentsline {section}{\numberline {5.2}\MakeUppercase {Custos}}{18}{}%
-\contentsline {chapter}{\numberline {6}\MakeUppercase {Conclusões}}{19}{}%
-\contentsline {section}{\numberline {6.1}\MakeUppercase {Conclusões}}{19}{}%
-\contentsline {section}{\numberline {6.2}\MakeUppercase {Trabalhos futuros}}{19}{}%
+\contentsline {section}{\numberline {2.1}\MakeUppercase {Regressão Linear}}{14}{}%
+\contentsline {subsection}{\numberline {2.1.1}O que é Regressão Linear?}{14}{}%
+\contentsline {subsection}{\numberline {2.1.2}O que é Função de Custo?}{15}{}%
+\contentsline {subsection}{\numberline {2.1.3}Gradiente Descendente}{15}{}%
+\contentsline {subsection}{\numberline {2.1.4}Regressão Linear por Gradiente Descendente no Python}{16}{}%
+\contentsline {subsection}{\numberline {2.1.5}Aplicações da Regressão Linear}{19}{}%
+\contentsline {section}{\numberline {2.2}\MakeUppercase {Teorema de Bayes}}{20}{}%
+\contentsline {subsection}{\numberline {2.2.1}O que é o Teorema de Bayes?}{20}{}%
+\contentsline {subsection}{\numberline {2.2.2}Fórmula do Teorema de Bayes}{20}{}%
+\contentsline {subsection}{\numberline {2.2.3}Teorema de Bayes utilizando Scikit-Learn no Python}{20}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Pré-processamento dos dados}{23}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Fazendo as predições}{24}{}%
+\contentsline {subsection}{\numberline {2.2.4}Aplicações do Teorema de Bayes}{25}{}%
+\contentsline {section}{\numberline {2.3}\MakeUppercase {Transformada de Fourier}}{25}{}%
+\contentsline {subsection}{\numberline {2.3.1}O que é a Transformada de Fourier?}{25}{}%
+\contentsline {subsection}{\numberline {2.3.2}Sinais}{25}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Sinais contínuos}{26}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Sinais discretos}{26}{}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Sinais periódicos}{26}{}%
+\contentsline {subsection}{\numberline {2.3.3}Tipos de Abordagens}{27}{}%
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Cronograma e custos do projeto}}{28}{}%
+\contentsline {section}{\numberline {3.1}\MakeUppercase {Cronograma}}{28}{}%
+\contentsline {section}{\numberline {3.2}\MakeUppercase {Custos}}{28}{}%
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Conclusões}}{29}{}%
+\contentsline {section}{\numberline {4.1}\MakeUppercase {Conclusões}}{29}{}%
+\contentsline {section}{\numberline {4.2}\MakeUppercase {Trabalhos futuros}}{29}{}%
