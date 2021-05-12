@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{sca}\PYG{p}{(}\PYG{n}{axs}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{freq}\PYG{p}{[}\PYG{n}{L}\PYG{p}{],}\PYG{n}{PSD}\PYG{p}{[}\PYG{n}{L}\PYG{p}{],} \PYG{n}{color} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}blue\PYGZsq{}}\PYG{p}{,}
+\PYG{n}{label} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Transformada discreta\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlim}\PYG{p}{(}\PYG{n}{freq}\PYG{p}{[}\PYG{n}{L}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]],} \PYG{n}{freq}\PYG{p}{[}\PYG{n}{L}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]])}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{legend}\PYG{p}{()}
+
+\PYG{n}{axs}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{o}{.}\PYG{n}{fill\PYGZus{}between}\PYG{p}{(}\PYG{n}{freq}\PYG{p}{[}\PYG{n}{L}\PYG{p}{],} \PYG{l+m+mi}{100}\PYG{p}{,} \PYG{l+m+mi}{400}\PYG{p}{,}
+\PYG{n}{where}\PYG{o}{=}\PYG{n}{np}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{(}\PYG{n}{PSD}\PYG{p}{[}\PYG{n}{L}\PYG{p}{])} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{n}{j}\PYG{p}{,} \PYG{n}{facecolor}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}green\PYGZsq{}}\PYG{p}{,} \PYG{n}{alpha}\PYG{o}{=}\PYG{l+m+mf}{0.5}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} indices: vetor de valores booleanos}
+\PYG{c+c1}{\PYGZsh{} vamos filtrar os ruídos e eliminar}
+\PYG{c+c1}{\PYGZsh{} aqueles com valores menores que 100}
+\PYG{n}{indices} \PYG{o}{=} \PYG{n}{PSD} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{100}
+\PYG{n}{PSDclean} \PYG{o}{=} \PYG{n}{PSD} \PYG{o}{+} \PYG{n}{indices}
+\PYG{c+c1}{\PYGZsh{} print(PSD[:51])}
+\PYG{c+c1}{\PYGZsh{} print(PSDclean[:51])}
+\PYG{n}{fhat} \PYG{o}{=} \PYG{n}{indices} \PYG{o}{*} \PYG{n}{fhat}
+\PYG{c+c1}{\PYGZsh{} Transformada inversa dos valores filtrados}
+\PYG{n}{ffilt} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{fft}\PYG{o}{.}\PYG{n}{ifft}\PYG{p}{(}\PYG{n}{fhat}\PYG{p}{)}
+\PYG{n}{axs}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{o}{.}\PYG{n}{grid}\PYG{p}{(}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{axis} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}x\PYGZsq{}}\PYG{p}{,} \PYG{n}{alpha} \PYG{o}{=} \PYG{l+m+mi}{1} \PYG{p}{,}
+\PYG{n}{color} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{,} \PYG{n}{which}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}both\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{sca}\PYG{p}{(}\PYG{n}{axs}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{])}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{ffilt}\PYG{p}{,} \PYG{n}{color} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}red\PYGZsq{}}\PYG{p}{,}
+\PYG{n}{label} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}Sinal filtrado\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlim}\PYG{p}{(}\PYG{n}{t}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{t}\PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{])}
+\PYG{n}{axs}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{]}\PYG{o}{.}\PYG{n}{set\PYGZus{}xlabel}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Tempo (s)\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{legend}\PYG{p}{()}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\end{Verbatim}

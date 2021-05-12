@@ -1,0 +1,32 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} 1000}
+\PYG{n}{n} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{t}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Transformada discreta do sinal com ruído}
+\PYG{c+c1}{\PYGZsh{} O resultado é um array de números complexos}
+\PYG{n}{fhat} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{fft}\PYG{o}{.}\PYG{n}{fft}\PYG{p}{(}\PYG{n}{f}\PYG{p}{,}\PYG{n}{n}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZsh{} Multiplicando cada número complexo pelo seu conjugado}
+\PYG{c+c1}{\PYGZsh{} PSD é um vetor de números reais}
+\PYG{n}{PSD} \PYG{o}{=} \PYG{n}{fhat} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{conj}\PYG{p}{(}\PYG{n}{fhat}\PYG{p}{)} \PYG{o}{/} \PYG{n}{n}
+
+\PYG{n}{PSD} \PYG{o}{=} \PYG{n}{PSD}\PYG{o}{.}\PYG{n}{real}
+
+\PYG{c+c1}{\PYGZsh{} print(PSD[:10])}
+\PYG{c+c1}{\PYGZsh{} 1000}
+\PYG{c+c1}{\PYGZsh{} print(len(PSD))}
+
+\PYG{n}{freq} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{/}\PYG{p}{(}\PYG{n}{dt}\PYG{o}{*}\PYG{n}{n}\PYG{p}{))} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{arange}\PYG{p}{(}\PYG{n}{n}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} [0. 1. 2. 3. 4. 5. 6. 7. 8. 9.]}
+\PYG{c+c1}{\PYGZsh{} print(freq[:10])}
+\PYG{c+c1}{\PYGZsh{} 1000}
+\PYG{c+c1}{\PYGZsh{} print(len(freq))}
+
+\PYG{n}{L}  \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{arange}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{floor}\PYG{p}{(}\PYG{n}{n}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{),} \PYG{n}{dtype} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}int\PYGZsq{}}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} 500}
+\PYG{c+c1}{\PYGZsh{} print(np.floor(n/2))}
+\PYG{c+c1}{\PYGZsh{} [490 491 492 493 494 495 496 497 498 499]}
+\PYG{c+c1}{\PYGZsh{} print(L[\PYGZhy{}10:])}
+\PYG{c+c1}{\PYGZsh{} 499}
+\PYG{c+c1}{\PYGZsh{} print(len(L))}
+\end{Verbatim}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  12 MAY 2021 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  12 MAY 2021 04:21
 entering extended mode
 **"./Projeto REA.tex"
 (Projeto REA.tex
@@ -1171,14 +1171,14 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 93--93
 
  [2
 
-] (Projeto REA.toc)
+] (Projeto REA.toc [3
+
+
+])
 \tf@toc=\write10
 \openout10 = `"Projeto REA.toc"'.
 
- [3
-
-
-]
+ [4]
 (capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
 Package newfloat Info: Setting Plan B file extension to `loa'... on input line 
@@ -1227,12 +1227,12 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <12> not available
 (Font)              Font shape `TS1/pcr/m/sl' tried instead on input line 7.
 )
-<./Imagens/Regressão Linear/RL1.png, id=37, 432.61626pt x 358.33875pt>
+<./Imagens/Regressão Linear/RL1.png, id=40, 432.61626pt x 358.33875pt>
 File: ./Imagens/Regressão Linear/RL1.png Graphic file (type png)
 <use ./Imagens/Regressão Linear/RL1.png>
 Package pdftex.def Info: ./Imagens/Regressão Linear/RL1.png  used on input lin
 e 88.
-(pdftex.def)             Requested size: 268.8813pt x 222.72545pt.
+(pdftex.def)             Requested size: 358.50612pt x 296.96725pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -1246,12 +1246,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 
 (_minted-Projeto_REA/0C5A67FF26BF2D28787E6CD65FBFA77C7448588429FAB49624D8BB8680
 FB4D0D.pygtex) [17 <./Imagens/Regressão Linear/RL1.png>]
-<./Imagens/Regressão Linear/RL2.png, id=49, 432.61626pt x 358.33875pt>
+<./Imagens/Regressão Linear/RL2.png, id=52, 432.61626pt x 358.33875pt>
 File: ./Imagens/Regressão Linear/RL2.png Graphic file (type png)
 <use ./Imagens/Regressão Linear/RL2.png>
 Package pdftex.def Info: ./Imagens/Regressão Linear/RL2.png  used on input lin
 e 123.
-(pdftex.def)             Requested size: 268.8813pt x 222.72545pt.
+(pdftex.def)             Requested size: 358.50612pt x 296.96725pt.
  [18]
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 130.
@@ -1265,16 +1265,17 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 9.
 
+[20]
 \openout3 = `Projeto_REA.pyg'.
 
 
 (_minted-Projeto_REA/A58F543871ABFBB4626832DD5A93A3217448588429FAB49624D8BB8680
-FB4D0D.pygtex) [20] [21]
+FB4D0D.pygtex) [21]
 Overfull \vbox (118.14503pt too high) has occurred while \output is active []
 
 
 [22]
-<./Imagens/Teorema de Bayes/Tabela.png, id=67, 243.15843pt x 358.33875pt>
+<./Imagens/Teorema de Bayes/Tabela.png, id=70, 243.15843pt x 358.33875pt>
 File: ./Imagens/Teorema de Bayes/Tabela.png Graphic file (type png)
 <use ./Imagens/Teorema de Bayes/Tabela.png>
 Package pdftex.def Info: ./Imagens/Teorema de Bayes/Tabela.png  used on input l
@@ -1293,15 +1294,292 @@ FB4D0D.pygtex) [24]) (capitulos/capitulo4.tex [25]
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 39.
 
-[26]) (capitulos/capitulo5.tex [27]
-Cap\'{\i }tulo 3.
-) (capitulos/capitulo6.tex [28
+[26]
 
-]
-Cap\'{\i }tulo 4.
-) [29
+LaTeX Font Warning: Command \large invalid in math mode on input line 54.
 
-]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/856E9914BFC79079D13A73301E3A6EC67448588429FAB49624D8BB8680
+FB4D0D.pygtex) [27] [28]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/D5F7BF186C121CAF2479061C5A28EB4B7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [29]
+<./Imagens/Transformada de Fourier/TF1.png, id=95, 885.3075pt x 483.8075pt>
+File: ./Imagens/Transformada de Fourier/TF1.png Graphic file (type png)
+<use ./Imagens/Transformada de Fourier/TF1.png>
+Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF1.png  used on inp
+ut line 118.
+(pdftex.def)             Requested size: 448.13095pt x 244.90036pt.
+ [30 <./Imagens/Transformada de Fourier/TF1.png>]
+<./Imagens/Transformada de Fourier/TF2.png, id=100, 544.0325pt x 318.18875pt>
+File: ./Imagens/Transformada de Fourier/TF2.png Graphic file (type png)
+<use ./Imagens/Transformada de Fourier/TF2.png>
+Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF2.png  used on inp
+ut line 129.
+(pdftex.def)             Requested size: 448.13095pt x 262.11082pt.
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/FB609CC3A62E7C1F81943D2D27401A4D7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [31 <./Imagens/Transformada de Fourier/TF2.png>]
+<./Imagens/Transformada de Fourier/TF3.png, id=106, 717.68124pt x 304.13625pt>
+File: ./Imagens/Transformada de Fourier/TF3.png Graphic file (type png)
+<use ./Imagens/Transformada de Fourier/TF3.png>
+Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF3.png  used on inp
+ut line 172.
+(pdftex.def)             Requested size: 448.13095pt x 189.91296pt.
+ [32]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/69264B6B0D3EB9BBC12DA3629AA195BE7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [33 <./Imagens/Transformada de Fourier/TF3.png>]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/4F3851AB5AC8ADD7B065291FFA5D63917448588429FAB49624D8BB8680
+FB4D0D.pygtex) [34]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/340B5BF9CFEEC810050A8EA5AADA25127448588429FAB49624D8BB8680
+FB4D0D.pygtex) [35]
+<./Imagens/Transformada de Fourier/TF4.png, id=120, 880.28876pt x 591.20876pt>
+File: ./Imagens/Transformada de Fourier/TF4.png Graphic file (type png)
+<use ./Imagens/Transformada de Fourier/TF4.png>
+Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF4.png  used on inp
+ut line 279.
+(pdftex.def)             Requested size: 448.13095pt x 300.96219pt.
+ [36]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/09B7081104AAABC4139C1A57595AB9CF7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [37 <./Imagens/Transformada de Fourier/TF4.png>]
+<./Imagens/Transformada de Fourier/TF5.png, id=129, 707.64375pt x 304.13625pt>
+File: ./Imagens/Transformada de Fourier/TF5.png Graphic file (type png)
+<use ./Imagens/Transformada de Fourier/TF5.png>
+Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF5.png  used on inp
+ut line 314.
+(pdftex.def)             Requested size: 448.13095pt x 192.6046pt.
+ [38])
+(capitulos/capitulo5.tex [39 <./Imagens/Transformada de Fourier/TF5.png>]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 19.
+
+[40]
+<./Imagens/Distribuição Normal/GA1.png, id=141, 578.16pt x 354.32375pt>
+File: ./Imagens/Distribuição Normal/GA1.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA1.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA1.png  used on input
+ line 46.
+(pdftex.def)             Requested size: 448.13095pt x 274.63591pt.
+ [41]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 54.
+
+[42 <./Imagens/Distribuição Normal/GA1.png>]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 70.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 74.
+
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/442CE37C0136892F3B37A9CFF9940D487448588429FAB49624D8BB8680
+FB4D0D.pygtex) [43]
+<./Imagens/Distribuição Normal/GA2.png, id=153, 505.89pt x 334.24875pt>
+File: ./Imagens/Distribuição Normal/GA2.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA2.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA2.png  used on input
+ line 104.
+(pdftex.def)             Requested size: 448.13095pt x 296.09319pt.
+ [44]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/00349F8D174A6A8424D78F85DA7575E57448588429FAB49624D8BB8680
+FB4D0D.pygtex) [45 <./Imagens/Distribuição Normal/GA2.png>]
+<./Imagens/Distribuição Normal/GA3.png, id=161, 505.89pt x 334.24875pt>
+File: ./Imagens/Distribuição Normal/GA3.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA3.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA3.png  used on input
+ line 133.
+(pdftex.def)             Requested size: 448.13095pt x 296.09319pt.
+ [46]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/0394087BC3C54895F14E34728C3CF76F7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [47 <./Imagens/Distribuição Normal/GA3.png>]
+<./Imagens/Distribuição Normal/GA4.png, id=169, 505.89pt x 334.24875pt>
+File: ./Imagens/Distribuição Normal/GA4.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA4.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA4.png  used on input
+ line 162.
+(pdftex.def)             Requested size: 448.13095pt x 296.09319pt.
+ [48]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 171.
+
+<./Imagens/Distribuição Normal/GA5.png, id=173, 508.90125pt x 332.24126pt>
+File: ./Imagens/Distribuição Normal/GA5.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA5.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA5.png  used on input
+ line 179.
+(pdftex.def)             Requested size: 448.13095pt x 292.58105pt.
+[49 <./Imagens/Distribuição Normal/GA4.png>]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/0C73CD27034EB8D50647FB7211C5278C7448588429FAB49624D8BB8680
+FB4D0D.pygtex)
+<./Imagens/Distribuição Normal/GA6.png, id=179, 507.8975pt x 330.23375pt>
+File: ./Imagens/Distribuição Normal/GA6.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA6.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA6.png  used on input
+ line 194.
+(pdftex.def)             Requested size: 448.13095pt x 291.38258pt.
+ [50 <./Imagens/Distribuição Normal/GA5.png>]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/F248D072470BDDC9DFE566334E1194DC7448588429FAB49624D8BB8680
+FB4D0D.pygtex)
+<./Imagens/Distribuição Normal/GA7.png, id=184, 504.88625pt x 314.17375pt>
+File: ./Imagens/Distribuição Normal/GA7.png Graphic file (type png)
+<use ./Imagens/Distribuição Normal/GA7.png>
+Package pdftex.def Info: ./Imagens/Distribuição Normal/GA7.png  used on input
+ line 212.
+(pdftex.def)             Requested size: 448.13095pt x 278.8611pt.
+ [51 <./Imagens/Distribuição Normal/GA6.png>]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/6F6E5963FA98F0F73A45B6383ECA6ED77448588429FAB49624D8BB8680
+FB4D0D.pygtex) [52 <./Imagens/Distribuição Normal/GA7.png>])
+(capitulos/capitulo6.tex
+<./Imagens/Integral de Riemann/RI1.png, id=193, 490.83376pt x 407.5225pt>
+File: ./Imagens/Integral de Riemann/RI1.png Graphic file (type png)
+<use ./Imagens/Integral de Riemann/RI1.png>
+Package pdftex.def Info: ./Imagens/Integral de Riemann/RI1.png  used on input l
+ine 11.
+(pdftex.def)             Requested size: 358.50612pt x 297.66306pt.
+ [53 <./Imagens/Integral de Riemann/RI1.png>]
+<./Imagens/Integral de Riemann/RI2.png, id=198, 490.83376pt x 407.5225pt>
+File: ./Imagens/Integral de Riemann/RI2.png Graphic file (type png)
+<use ./Imagens/Integral de Riemann/RI2.png>
+Package pdftex.def Info: ./Imagens/Integral de Riemann/RI2.png  used on input l
+ine 22.
+(pdftex.def)             Requested size: 358.50612pt x 297.66306pt.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 31.
+
+[54 <./Imagens/Integral de Riemann/RI2.png>]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 51.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 56.
+
+[55]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/5EB12836A22215B588A26C19BDF118067448588429FAB49624D8BB8680
+FB4D0D.pygtex)
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/AC95E78F50C4CEB35F799B998DC179A97448588429FAB49624D8BB8680
+FB4D0D.pygtex)
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 75.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/9F13CFD3AD7E670D4DC1D1B79BA81D107448588429FAB49624D8BB8680
+FB4D0D.pygtex) [56]
+<./Imagens/Integral de Riemann/RI3.png, id=210, 481.8pt x 358.33875pt>
+File: ./Imagens/Integral de Riemann/RI3.png Graphic file (type png)
+<use ./Imagens/Integral de Riemann/RI3.png>
+Package pdftex.def Info: ./Imagens/Integral de Riemann/RI3.png  used on input l
+ine 108.
+(pdftex.def)             Requested size: 358.50612pt x 266.6483pt.
+ [57]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/E509B547953D1E97FBC8A9F90DB775377448588429FAB49624D8BB8680
+FB4D0D.pygtex) [58 <./Imagens/Integral de Riemann/RI3.png>]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/5333770C00EC51383B21EE268FB222C17448588429FAB49624D8BB8680
+FB4D0D.pygtex) [59]
+<./Imagens/Integral de Riemann/RI4.png, id=221, 481.8pt x 358.33875pt>
+File: ./Imagens/Integral de Riemann/RI4.png Graphic file (type png)
+<use ./Imagens/Integral de Riemann/RI4.png>
+Package pdftex.def Info: ./Imagens/Integral de Riemann/RI4.png  used on input l
+ine 173.
+(pdftex.def)             Requested size: 358.50612pt x 266.6483pt.
+ [60]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/430FBD40E63DCBC0C3DE40B9544AF13D7448588429FAB49624D8BB8680
+FB4D0D.pygtex) [61 <./Imagens/Integral de Riemann/RI4.png>] [62])
+(capitulos/capitulo7.tex
+<./Imagens/Oscilador/OH1.png, id=233, 859.21pt x 146.5475pt>
+File: ./Imagens/Oscilador/OH1.png Graphic file (type png)
+<use ./Imagens/Oscilador/OH1.png>
+Package pdftex.def Info: ./Imagens/Oscilador/OH1.png  used on input line 14.
+(pdftex.def)             Requested size: 358.50612pt x 61.147pt.
+ [63 <./Imagens/Oscilador/OH1.png>]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 27.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 41.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 47.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 51.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
+
+[64]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 59.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 79.
+
+[65]
+\openout3 = `Projeto_REA.pyg'.
+
+
+(_minted-Projeto_REA/17709F2430DC7E1D94486C85752AFD507448588429FAB49624D8BB8680
+FB4D0D.pygtex) [66]
+<./Imagens/Oscilador/OH2.png, id=247, 612.2875pt x 467.7475pt>
+File: ./Imagens/Oscilador/OH2.png Graphic file (type png)
+<use ./Imagens/Oscilador/OH2.png>
+Package pdftex.def Info: ./Imagens/Oscilador/OH2.png  used on input line 134.
+(pdftex.def)             Requested size: 358.50612pt x 273.87027pt.
+ [67]) [68 <./Imagens/Oscilador/OH2.png>]
 No file "Projeto REA".bbl.
 
 AED: lastpage setting LastPage
@@ -1314,28 +1592,30 @@ runsystem(del Projeto_REA.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23184 strings out of 479321
- 453518 string characters out of 2855630
- 850505 words of memory out of 3000000
- 40048 multiletter control sequences out of 15000+600000
- 440863 words of font info for 111 fonts, out of 8000000 for 9000
+ 23473 strings out of 479321
+ 468292 string characters out of 2855630
+ 855147 words of memory out of 3000000
+ 40238 multiletter control sequences out of 15000+600000
+ 448930 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,8n,116p,771b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,9n,116p,812b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
 C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/
-fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiK
-TeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/T-Gamer/AppData/Local/Programs
-/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/T-Gamer/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/T-Gamer/AppData/Local/
-Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T-Gamer/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Projeto REA.pdf" (22 pages, 181211 bytes).
+mex10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/T-Gamer/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/T-Gamer/AppData/Local/P
+rograms/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/T-Gamer/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/T-Gamer/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/T-Gamer/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T-Gamer/
+AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Projeto REA.pdf" (62 pages, 954313 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 297 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

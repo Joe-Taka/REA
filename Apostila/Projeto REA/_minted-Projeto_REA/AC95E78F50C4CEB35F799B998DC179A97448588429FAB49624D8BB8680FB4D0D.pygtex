@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k+kn}{from} \PYG{n+nn}{scipy} \PYG{k+kn}{import} \PYG{n}{integrate}
+	\PYG{n}{integrate}\PYG{o}{.}\PYG{n}{quad}\PYG{p}{(}\PYG{n}{x2}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{)}
+\end{Verbatim}

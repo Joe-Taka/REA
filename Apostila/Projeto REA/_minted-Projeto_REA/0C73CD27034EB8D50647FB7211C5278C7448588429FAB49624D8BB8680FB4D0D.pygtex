@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{prob} \PYG{o}{=} \PYG{n}{norm}\PYG{p}{(}\PYG{n}{loc} \PYG{o}{=} \PYG{l+m+mi}{0} \PYG{p}{,} \PYG{n}{scale} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{.}\PYG{n}{cdf}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Probabilidade: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{prob}\PYG{o}{*}\PYG{l+m+mi}{100}\PYG{l+s+si}{:}\PYG{l+s+s2}{.2f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZpc{}\PYGZdq{}}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Probabilidade: 15.87\PYGZpc{}}
+\end{Verbatim}

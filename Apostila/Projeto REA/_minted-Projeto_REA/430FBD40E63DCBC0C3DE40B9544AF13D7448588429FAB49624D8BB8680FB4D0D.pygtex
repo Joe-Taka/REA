@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{k}{def} \PYG{n+nf}{area}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{,}\PYG{n}{n}\PYG{p}{):}
+\PYG{n}{y} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{,}\PYG{n}{n}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{n}{w} \PYG{o}{=} \PYG{p}{(}\PYG{n}{b} \PYG{o}{\PYGZhy{}} \PYG{n}{a}\PYG{p}{)}\PYG{o}{/}\PYG{n}{n}
+\PYG{n}{f} \PYG{o}{=} \PYG{k}{lambda} \PYG{n}{x}\PYG{p}{:} \PYG{n}{x}\PYG{o}{**}\PYG{l+m+mi}{2}
+\PYG{n}{S} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n}{y}\PYG{p}{[:}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]:}
+	\PYG{n}{S} \PYG{o}{=} \PYG{n}{S} \PYG{o}{+} \PYG{n}{f}\PYG{p}{(}\PYG{n}{i}\PYG{p}{)}\PYG{o}{*}\PYG{n}{w}
+
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Área: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{S}\PYG{l+s+si}{:}\PYG{l+s+s2}{.3f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ (para }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{n}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ retângulos)\PYGZdq{}}\PYG{p}{)}
+
+\PYG{n}{area}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Área: 15.360 (para 5 retângulos)}
+\PYG{n}{area}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{100}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Área: 21.014 (para 100 retângulos)}
+\PYG{n}{area}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{500}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Área: 21.269 (para 500 retângulos)}
+\PYG{n}{area}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{1000}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Área: 21.301 (para 1000 retângulos)}
+\PYG{n}{area}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{5000}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Área: 21.327 (para 5000 retângulos)}
+\PYG{n}{area}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{4}\PYG{p}{,}\PYG{l+m+mi}{10000}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Área: 21.330 (para 10000 retângulos)}
+\end{Verbatim}

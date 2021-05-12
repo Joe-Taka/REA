@@ -23,9 +23,40 @@
 \contentsline {subsubsection}{\numberline {2.3.2.2}Sinais discretos}{26}{}%
 \contentsline {subsubsection}{\numberline {2.3.2.3}Sinais periódicos}{26}{}%
 \contentsline {subsection}{\numberline {2.3.3}Tipos de Abordagens}{27}{}%
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Cronograma e custos do projeto}}{28}{}%
-\contentsline {section}{\numberline {3.1}\MakeUppercase {Cronograma}}{28}{}%
-\contentsline {section}{\numberline {3.2}\MakeUppercase {Custos}}{28}{}%
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Conclusões}}{29}{}%
-\contentsline {section}{\numberline {4.1}\MakeUppercase {Conclusões}}{29}{}%
-\contentsline {section}{\numberline {4.2}\MakeUppercase {Trabalhos futuros}}{29}{}%
+\contentsline {subsection}{\numberline {2.3.4}Fórmula para Transformada Discreta de Fourier (DFT)}{27}{}%
+\contentsline {subsection}{\numberline {2.3.5}Transformada Discreta de Fourier (DFT) no Python}{27}{}%
+\contentsline {subsubsection}{\numberline {2.3.5.1}Exemplo: Filtrando ruídos}{31}{}%
+\contentsline {subsection}{\numberline {2.3.6}Aplicações da Transformada de Fourier}{39}{}%
+\contentsline {section}{\numberline {2.4}\MakeUppercase {Distribuição Gaussiana}}{39}{}%
+\contentsline {subsection}{\numberline {2.4.1}O que é a Distribuição Gaussiana?}{39}{}%
+\contentsline {subsection}{\numberline {2.4.2}Variável aleatória]}{40}{}%
+\contentsline {subsection}{\numberline {2.4.3}Função Densidade de Probabilidade}{40}{}%
+\contentsline {subsection}{\numberline {2.4.4}Distribuição Normal ou Gassiana}{41}{}%
+\contentsline {subsection}{\numberline {2.4.5}Densidade para a distribuição normal}{42}{}%
+\contentsline {subsection}{\numberline {2.4.6}Desvio padrão}{42}{}%
+\contentsline {subsection}{\numberline {2.4.7}Fórmula para o desvio padrão}{43}{}%
+\contentsline {subsection}{\numberline {2.4.8}Distribuição Normal no Python}{43}{}%
+\contentsline {subsection}{\numberline {2.4.9}Função distribuição acumulada}{49}{}%
+\contentsline {subsubsection}{\numberline {2.4.9.1}Calculando a probabilidade de ocorrência de dados específicos}{49}{}%
+\contentsline {subsection}{\numberline {2.4.10}Aplicações da Distribuição Normal}{52}{}%
+\contentsline {section}{\numberline {2.5}\MakeUppercase {Integral de Riemann}}{53}{}%
+\contentsline {subsection}{\numberline {2.5.1}Conceito de Integral}{53}{}%
+\contentsline {subsection}{\numberline {2.5.2}Integral de Riemann}{54}{}%
+\contentsline {subsubsection}{\numberline {2.5.2.1}Fórmula}{54}{}%
+\contentsline {subsection}{\numberline {2.5.3}Função primitiva/integral indefinida/antiderivada}{55}{}%
+\contentsline {subsection}{\numberline {2.5.4}Teorema Fundamental do Cálculo}{55}{}%
+\contentsline {subsection}{\numberline {2.5.5}Integral de Riemann utilizando scipy do Python}{55}{}%
+\contentsline {subsection}{\numberline {2.5.6}Exemplo por aproximação superior}{56}{}%
+\contentsline {subsection}{\numberline {2.5.7}Exemplo por aproximação inferior}{59}{}%
+\contentsline {subsection}{\numberline {2.5.8}Aplicações da Integral de Riemann}{62}{}%
+\contentsline {section}{\numberline {2.6}\MakeUppercase {Oscilador Harmônico Amortecido}}{63}{}%
+\contentsline {subsection}{\numberline {2.6.1}Conceitos}{63}{}%
+\contentsline {subsection}{\numberline {2.6.2}Força de inércia}{63}{}%
+\contentsline {subsection}{\numberline {2.6.3}Força restauradora}{64}{}%
+\contentsline {subsection}{\numberline {2.6.4}Força de amortecimento}{64}{}%
+\contentsline {subsection}{\numberline {2.6.5}Equação do movimento}{64}{}%
+\contentsline {subsection}{\numberline {2.6.6}Amortecimento}{65}{}%
+\contentsline {subsubsection}{\numberline {2.6.6.1}Fórmula do amortecimento}{65}{}%
+\contentsline {subsubsection}{\numberline {2.6.6.2}Tipos de amortecimento}{66}{}%
+\contentsline {subsection}{\numberline {2.6.7}Oscilador harmônico amortecido no Python}{66}{}%
+\contentsline {subsection}{\numberline {2.6.8}Aplicações da oscilação harmônica amortecida}{68}{}%
