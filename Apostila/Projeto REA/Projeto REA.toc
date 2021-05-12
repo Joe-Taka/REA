@@ -60,3 +60,6 @@
 \contentsline {subsubsection}{\numberline {2.6.6.2}Tipos de amortecimento}{66}{}%
 \contentsline {subsection}{\numberline {2.6.7}Oscilador harmônico amortecido no Python}{66}{}%
 \contentsline {subsection}{\numberline {2.6.8}Aplicações da oscilação harmônica amortecida}{68}{}%
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Conclusão}}{69}{}%
+\contentsline {section}{\numberline {3.1}\MakeUppercase {Conclusões}}{69}{}%
+\contentsline {section}{\numberline {3.2}\MakeUppercase {Trabalhos futuros}}{69}{}%
