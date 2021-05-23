@@ -17,14 +17,20 @@
 \PYG{n}{w0} \PYG{o}{=} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{*}\PYG{l+m+mf}{1.0} \PYG{c+c1}{\PYGZsh{} frequência natural}
 \PYG{c+c1}{\PYGZsh{} print(w0)}
 
-\PYG{c+c1}{\PYGZsh{} resolvendo a EDO para 4 diferentes valores de amortecimento}
-\PYG{n}{y1} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))} \PYG{c+c1}{\PYGZsh{} não amortecido}
-\PYG{n}{y2} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{0.2}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))} \PYG{c+c1}{\PYGZsh{} sub\PYGZhy{}amortecido}
-\PYG{n}{y3} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{1.0}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))} \PYG{c+c1}{\PYGZsh{} criticamente amortecido}
-\PYG{n}{y4} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{5.0}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))} \PYG{c+c1}{\PYGZsh{} super\PYGZhy{}amortecido}
+\PYG{c+c1}{\PYGZsh{} resolvendo a EDO para 4 diferentes}
+\PYG{c+c1}{\PYGZsh{} valores de amortecimento}
+\PYG{c+c1}{\PYGZsh{} não amortecido}
+\PYG{n}{y1} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{0.0}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))}
+\PYG{c+c1}{\PYGZsh{} sub\PYGZhy{}amortecido}
+\PYG{n}{y2} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{0.2}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))}
+\PYG{c+c1}{\PYGZsh{} criticamente amortecido}
+\PYG{n}{y3} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{1.0}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))}
+\PYG{c+c1}{\PYGZsh{} super\PYGZhy{}amortecido}
+\PYG{n}{y4} \PYG{o}{=} \PYG{n}{odeint}\PYG{p}{(}\PYG{n}{dy}\PYG{p}{,} \PYG{n}{y0}\PYG{p}{,} \PYG{n}{t}\PYG{p}{,} \PYG{n}{args}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mf}{5.0}\PYG{p}{,} \PYG{n}{w0}\PYG{p}{))}
 
 \PYG{n}{fig}\PYG{p}{,} \PYG{n}{ax} \PYG{o}{=} \PYG{n}{plt}\PYG{o}{.}\PYG{n}{subplots}\PYG{p}{(}\PYG{n}{figsize} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{l+m+mi}{8}\PYG{p}{))}
-\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{y1}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{l+s+s1}{\PYGZsq{}k\PYGZsq{}}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}não amortecido\PYGZdq{}}\PYG{p}{,} \PYG{n}{linewidth}\PYG{o}{=}\PYG{l+m+mf}{0.5}\PYG{p}{)}
+\PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{y1}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{l+s+s1}{\PYGZsq{}k\PYGZsq{}}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}não amortecido\PYGZdq{}}\PYG{p}{,}
+\PYG{n}{linewidth}\PYG{o}{=}\PYG{l+m+mf}{0.5}\PYG{p}{)}
 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{y2}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{l+s+s1}{\PYGZsq{}r\PYGZsq{}}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}sub\PYGZhy{}amortecido\PYGZdq{}}\PYG{p}{)}
 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{y3}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{l+s+s1}{\PYGZsq{}b\PYGZsq{}}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+sa}{r}\PYG{l+s+s2}{\PYGZdq{}criticamente amortecido\PYGZdq{}}\PYG{p}{)}
 \PYG{n}{ax}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{t}\PYG{p}{,} \PYG{n}{y4}\PYG{p}{[:,}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{l+s+s1}{\PYGZsq{}g\PYGZsq{}}\PYG{p}{,} \PYG{n}{label}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}super\PYGZhy{}amortecido\PYGZdq{}}\PYG{p}{)}

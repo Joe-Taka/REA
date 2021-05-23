@@ -114,14 +114,20 @@ t = np.linspace(0, 10, 1000)
 w0 = 2*np.pi*1.0 # frequência natural
 # print(w0)
 
-# resolvendo a EDO para 4 diferentes valores de amortecimento
-y1 = odeint(dy, y0, t, args=(0.0, w0)) # não amortecido
-y2 = odeint(dy, y0, t, args=(0.2, w0)) # sub-amortecido
-y3 = odeint(dy, y0, t, args=(1.0, w0)) # criticamente amortecido
-y4 = odeint(dy, y0, t, args=(5.0, w0)) # super-amortecido
+# resolvendo a EDO para 4 diferentes 
+# valores de amortecimento
+# não amortecido
+y1 = odeint(dy, y0, t, args=(0.0, w0)) 
+# sub-amortecido
+y2 = odeint(dy, y0, t, args=(0.2, w0))
+# criticamente amortecido 
+y3 = odeint(dy, y0, t, args=(1.0, w0)) 
+# super-amortecido
+y4 = odeint(dy, y0, t, args=(5.0, w0)) 
 
 fig, ax = plt.subplots(figsize = (10,8))
-ax.plot(t, y1[:,0], 'k', label="não amortecido", linewidth=0.5)
+ax.plot(t, y1[:,0], 'k', label="não amortecido", 
+linewidth=0.5)
 ax.plot(t, y2[:,0], 'r', label="sub-amortecido")
 ax.plot(t, y3[:,0], 'b', label=r"criticamente amortecido")
 ax.plot(t, y4[:,0], 'g', label="super-amortecido")

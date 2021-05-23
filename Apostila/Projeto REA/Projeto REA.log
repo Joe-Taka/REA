@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  12 MAY 2021 04:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  19 MAY 2021 23:08
 entering extended mode
 **"./Projeto REA.tex"
 (Projeto REA.tex
@@ -1572,14 +1572,18 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 79.
 \openout3 = `Projeto_REA.pyg'.
 
 
-(_minted-Projeto_REA/17709F2430DC7E1D94486C85752AFD507448588429FAB49624D8BB8680
+(_minted-Projeto_REA/4D6CD80AC28D2CB6552A0D425E9522DB7448588429FAB49624D8BB8680
 FB4D0D.pygtex) [66]
-<./Imagens/Oscilador/OH2.png, id=247, 612.2875pt x 467.7475pt>
+Overfull \vbox (98.95988pt too high) has occurred while \output is active []
+
+
+[67]
+<./Imagens/Oscilador/OH2.png, id=251, 612.2875pt x 467.7475pt>
 File: ./Imagens/Oscilador/OH2.png Graphic file (type png)
 <use ./Imagens/Oscilador/OH2.png>
-Package pdftex.def Info: ./Imagens/Oscilador/OH2.png  used on input line 134.
+Package pdftex.def Info: ./Imagens/Oscilador/OH2.png  used on input line 140.
 (pdftex.def)             Requested size: 358.50612pt x 273.87027pt.
- [67]) (capitulos/capitulo8.tex [68 <./Imagens/Oscilador/OH2.png>]
+) (capitulos/capitulo8.tex [68 <./Imagens/Oscilador/OH2.png>]
 Cap\'{\i }tulo 3.
 ) [69
 
@@ -1598,7 +1602,7 @@ runsystem(del Projeto_REA.pyg)...executed.
 Here is how much of TeX's memory you used:
  23477 strings out of 479321
  468435 string characters out of 2855630
- 855147 words of memory out of 3000000
+ 855148 words of memory out of 3000000
  40239 multiletter control sequences out of 15000+600000
  448930 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1617,7 +1621,7 @@ ta/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/T-Gamer/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T-Gamer/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Projeto REA.pdf" (63 pages, 955096 bytes).
+Output written on "Projeto REA.pdf" (63 pages, 955794 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
