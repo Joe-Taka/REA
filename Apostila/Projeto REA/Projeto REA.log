@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  19 MAY 2021 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  3 JUN 2021 02:42
 entering extended mode
 **"./Projeto REA.tex"
 (Projeto REA.tex
@@ -1066,23 +1066,23 @@ runsystem(del Projeto_REA.aex)...executed.
 (Projeto REA.aux)
 \openout1 = `"Projeto REA.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 90.
+(lastpage)             ! on input line 92.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1116,38 +1116,38 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 90.
+Package chemgreek Info: Activating mapping `default' on line 92.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 92.
+ 94.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 92.
+ 94.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 92.
+ 94.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 92.
+ 94.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 92.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
 
 [1
 
@@ -1155,7 +1155,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 Non-PDF special ignored!
 <special> papersize=210mm,297mm
 {C:/Users/T-Gamer/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 95--95
   $[]$ 
  []
 
@@ -1584,10 +1584,12 @@ File: ./Imagens/Oscilador/OH2.png Graphic file (type png)
 Package pdftex.def Info: ./Imagens/Oscilador/OH2.png  used on input line 140.
 (pdftex.def)             Requested size: 358.50612pt x 273.87027pt.
 ) (capitulos/capitulo8.tex [68 <./Imagens/Oscilador/OH2.png>]
-Cap\'{\i }tulo 3.
-) [69
-
-]
+<./Imagens/RLC/rlc1.png, id=256, 391.4625pt x 158.5925pt>
+File: ./Imagens/RLC/rlc1.png Graphic file (type png)
+<use ./Imagens/RLC/rlc1.png>
+Package pdftex.def Info: ./Imagens/RLC/rlc1.png  used on input line 11.
+(pdftex.def)             Requested size: 358.50612pt x 145.24863pt.
+ [69 <./Imagens/RLC/rlc1.png>]) [70]
 No file "Projeto REA".bbl.
 
 AED: lastpage setting LastPage
@@ -1600,13 +1602,13 @@ runsystem(del Projeto_REA.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23477 strings out of 479321
- 468435 string characters out of 2855630
- 855148 words of memory out of 3000000
- 40239 multiletter control sequences out of 15000+600000
- 448930 words of font info for 132 fonts, out of 8000000 for 9000
+ 23489 strings out of 479321
+ 468648 string characters out of 2855630
+ 855221 words of memory out of 3000000
+ 40248 multiletter control sequences out of 15000+600000
+ 449241 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 111i,9n,116p,812b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 111i,9n,116p,1004b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
 C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
@@ -1621,9 +1623,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/T-Gamer/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T-Gamer/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Projeto REA.pdf" (63 pages, 955794 bytes).
+Output written on "Projeto REA.pdf" (64 pages, 972005 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
+ 305 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 118 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 words of extra memory for PDF output out of 10000 (max. 10000000)
 
