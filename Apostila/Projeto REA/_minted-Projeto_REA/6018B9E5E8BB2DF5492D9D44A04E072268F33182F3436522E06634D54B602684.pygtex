@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{while}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+\PYG{n}{a} \PYG{p}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Informe o limite inferior do intervalo: \PYGZdq{}}\PYG{p}{);}
+\PYG{n}{b} \PYG{p}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Informe o limite superior do intervalo: \PYGZdq{}}\PYG{p}{);}
+\PYG{n}{erro} \PYG{p}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Informe o erro/Críterio De Parada desejado: \PYGZdq{}}\PYG{p}{)}
+
+\PYG{c+c1}{// verifica se raiz se encontra entre o intervalo fornecido}
+\PYG{k}{if} \PYG{n}{f}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)}\PYG{o}{*}\PYG{n}{f}\PYG{p}{(}\PYG{n}{b}\PYG{p}{)} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0} \PYG{n+nb}{then}
+\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}O intervalo possui uma ou mais raizes\PYGZbs{}n\PYGZdq{}}\PYG{p}{)}
+\PYG{c+c1}{// caso a raiz esteja aqui,}
+\PYG{c+c1}{//ele interrompe o loop e vai pra frente no algoritmo}
+\PYG{k}{break}
+\PYG{k}{else}
+\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Esse intervalo não possue raiz, insira um novo!\PYGZdq{}}\PYG{p}{)}
+\PYG{k}{end}
+\PYG{k}{end}
+\PYG{n}{acha\PYGZus{}raiz}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{,}\PYG{n}{erro}\PYG{p}{);}
+\end{Verbatim}

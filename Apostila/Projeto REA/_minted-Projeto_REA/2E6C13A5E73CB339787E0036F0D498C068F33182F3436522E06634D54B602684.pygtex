@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// sistema de equações algébricas lineares}
+\PYG{c+c1}{// utilizaremos a função Linsolve para}
+\PYG{c+c1}{// resolver um sistema simulando a 5 reatores ligados entre si}
+\PYG{c+c1}{// Queremos determinar as concetrações}
+\PYG{c+c1}{// c1, c2, c3, c4, c5 (referente a cada reator)}
+
+\PYG{n+nb}{clear}\PYG{p}{,} \PYG{n+nb}{clc}
+
+\PYG{c+c1}{//informe aqui a seu sistema do tipo Ax + b = 0}
+\PYG{n}{A} \PYG{p}{=} \PYG{p}{[}\PYG{l+m+mi}{8} \PYG{l+m+mi}{0} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0}\PYG{p}{;}\PYG{l+m+mi}{4} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{4} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0}\PYG{p}{;}\PYG{l+m+mi}{0} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2} \PYG{l+m+mi}{10} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{7} \PYG{l+m+mi}{10} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{p}{;}\PYG{l+m+mi}{4} \PYG{l+m+mi}{2} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{6}\PYG{p}{]}
+\PYG{c+c1}{// matriz dos coeficientes}
+\PYG{n}{b} \PYG{p}{=} \PYG{p}{[}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{50}\PYG{p}{;} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{160}\PYG{p}{;} \PYG{l+m+mi}{0}\PYG{p}{;} \PYG{l+m+mi}{0}\PYG{p}{]}
+\PYG{n}{x} \PYG{p}{=} \PYG{n+nb}{linsolve}\PYG{p}{(}\PYG{n}{A}\PYG{p}{,} \PYG{n}{b}\PYG{p}{)}
+
+\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}O vetor x é: \PYGZbs{}n\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{mprintf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}C1 = \PYGZpc{}6.4f \PYGZbs{}n\PYGZdq{}}\PYG{p}{,} \PYG{n}{x}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{))}
+\PYG{n+nb}{mprintf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}C2 = \PYGZpc{}6.4f \PYGZbs{}n\PYGZdq{}}\PYG{p}{,} \PYG{n}{x}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{p}{))}
+\PYG{n+nb}{mprintf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}C3 = \PYGZpc{}6.4f \PYGZbs{}n\PYGZdq{}}\PYG{p}{,} \PYG{n}{x}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{))}
+\PYG{n+nb}{mprintf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}C4 = \PYGZpc{}6.4f \PYGZbs{}n\PYGZdq{}}\PYG{p}{,} \PYG{n}{x}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{))}
+\PYG{n+nb}{mprintf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}C5 = \PYGZpc{}6.4f \PYGZbs{}n\PYGZdq{}}\PYG{p}{,} \PYG{n}{x}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{))}
+\end{Verbatim}

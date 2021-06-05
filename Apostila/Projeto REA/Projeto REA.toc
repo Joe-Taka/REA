@@ -61,5 +61,28 @@
 \contentsline {subsection}{\numberline {2.6.7}Oscilador harmônico amortecido no Python}{66}{}%
 \contentsline {subsection}{\numberline {2.6.8}Aplicações da oscilação harmônica amortecida}{68}{}%
 \contentsline {section}{\numberline {2.7}\MakeUppercase {Circuito RLC}}{69}{}%
-\contentsline {subsection}{\numberline {2.7.1}Conceito}{69}{}%
-\contentsline {subsection}{\numberline {2.7.2}Indutor}{69}{}%
+\contentsline {subsection}{\numberline {2.7.1}Conceitos}{69}{}%
+\contentsline {subsubsection}{\numberline {2.7.1.1}Indutor}{69}{}%
+\contentsline {subsubsection}{\numberline {2.7.1.2}Capacitor}{70}{}%
+\contentsline {subsubsection}{\numberline {2.7.1.3}Frequência de ressonância}{70}{}%
+\contentsline {subsubsection}{\numberline {2.7.1.4}Impedância}{70}{}%
+\contentsline {subsection}{\numberline {2.7.2}Equação do circuito RLC}{70}{}%
+\contentsline {section}{\numberline {2.8}\MakeUppercase {Oscilações forçadas}}{73}{}%
+\contentsline {subsubsection}{\numberline {2.8.0.1}Aplitude da corrente}{74}{}%
+\contentsline {section}{\numberline {2.9}\MakeUppercase {Aplicações dos circuitos RLC}}{77}{}%
+\contentsline {section}{\numberline {2.10}\MakeUppercase {Oscilador Harmônico Simples}}{77}{}%
+\contentsline {subsection}{\numberline {2.10.1}Movimento Periódico}{77}{}%
+\contentsline {subsection}{\numberline {2.10.2}Força elástica}{78}{}%
+\contentsline {subsection}{\numberline {2.10.3}Equação do movimento}{78}{}%
+\contentsline {section}{\numberline {2.11}\MakeUppercase {Pêndulo Simples}}{82}{}%
+\contentsline {section}{\numberline {2.12}\MakeUppercase {Método da bissecção}}{85}{}%
+\contentsline {subsection}{\numberline {2.12.1}Encontrando raízes de equação - Caso do paraquedista}{85}{}%
+\contentsline {subsection}{\numberline {2.12.2}Motivação}{85}{}%
+\contentsline {subsection}{\numberline {2.12.3}Método da bissecção}{86}{}%
+\contentsline {section}{\numberline {2.13}\MakeUppercase {Idealidade dos gases}}{89}{}%
+\contentsline {subsection}{\numberline {2.13.1}Determinação das constantes a e b na equação de Van Der Walls}{89}{}%
+\contentsline {section}{\numberline {2.14}\MakeUppercase {Integração Numérica - Quantidade de calor}}{92}{}%
+\contentsline {section}{\numberline {2.15}\MakeUppercase {Sistema de equações lineares – concentração de reatores}}{94}{}%
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Conclusão}}{99}{}%
+\contentsline {section}{\numberline {3.1}\MakeUppercase {Conclusões}}{99}{}%
+\contentsline {section}{\numberline {3.2}\MakeUppercase {Trabalhos futuros}}{99}{}%

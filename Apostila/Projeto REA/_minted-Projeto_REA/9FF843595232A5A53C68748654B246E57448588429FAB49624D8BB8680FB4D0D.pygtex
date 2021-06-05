@@ -1,0 +1,36 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	
+\PYG{k+kn}{import} \PYG{n+nn}{matplotlib.pyplot} \PYG{k}{as} \PYG{n+nn}{plt}
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{import} \PYG{n+nn}{math}
+
+\PYG{c+c1}{\PYGZsh{} fig, ax = plt.subplots(figsize = (10,8))}
+
+\PYG{n}{L} \PYG{o}{=} \PYG{l+m+mi}{4}\PYG{o}{*}\PYG{l+m+mi}{10}\PYG{o}{**}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{p}{)}
+\PYG{n}{C} \PYG{o}{=} \PYG{l+m+mf}{2.5}\PYG{o}{*}\PYG{l+m+mi}{10}\PYG{o}{**}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{6}\PYG{p}{)}
+\PYG{n}{fem} \PYG{o}{=} \PYG{l+m+mi}{10}
+\PYG{c+c1}{\PYGZsh{} frequência natural}
+\PYG{n}{wn} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{o}{/}\PYG{p}{(}\PYG{n}{math}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{L}\PYG{o}{*}\PYG{n}{C}\PYG{p}{))}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{wn}\PYG{p}{)}
+\PYG{n}{wd} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mf}{0.01}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{wn}\PYG{p}{,}\PYG{l+m+mi}{500}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{amp}\PYG{p}{(}\PYG{n}{R}\PYG{p}{,} \PYG{n}{wd}\PYG{p}{,} \PYG{n}{L}\PYG{p}{,} \PYG{n}{C}\PYG{p}{,} \PYG{n}{fem}\PYG{p}{):}
+\PYG{n}{I} \PYG{o}{=} \PYG{n}{fem}\PYG{o}{/}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{sqrt}\PYG{p}{(}\PYG{n}{R}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{p}{(}\PYG{n}{wd}\PYG{o}{*}\PYG{n}{L}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{o}{/}\PYG{p}{(}\PYG{n}{wd}\PYG{o}{*}\PYG{n}{C}\PYG{p}{))}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{))}
+\PYG{k}{return} \PYG{n}{I}
+
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{figure}\PYG{p}{(}\PYG{n}{figsize}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{l+m+mi}{5}\PYG{p}{))}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{wd}\PYG{o}{/}\PYG{n}{wn}\PYG{p}{,}\PYG{n}{amp}\PYG{p}{(}\PYG{l+m+mi}{5}\PYG{p}{,}\PYG{n}{wd}\PYG{p}{,} \PYG{n}{L}\PYG{p}{,} \PYG{n}{C}\PYG{p}{,} \PYG{n}{fem}\PYG{p}{),} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}blue\PYGZdq{}}\PYG{p}{,}
+\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}5\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{wd}\PYG{o}{/}\PYG{n}{wn}\PYG{p}{,}\PYG{n}{amp}\PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{n}{wd}\PYG{p}{,} \PYG{n}{L}\PYG{p}{,} \PYG{n}{C}\PYG{p}{,} \PYG{n}{fem}\PYG{p}{),} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}red\PYGZdq{}}\PYG{p}{,}
+\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}10\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{wd}\PYG{o}{/}\PYG{n}{wn}\PYG{p}{,}\PYG{n}{amp}\PYG{p}{(}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{n}{wd}\PYG{p}{,} \PYG{n}{L}\PYG{p}{,} \PYG{n}{C}\PYG{p}{,} \PYG{n}{fem}\PYG{p}{),} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s2}{\PYGZdq{}pink\PYGZdq{}}\PYG{p}{,}
+\PYG{n}{label}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}20\PYGZsq{}}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{axvline}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{,} \PYG{n}{linewidth}\PYG{o}{=}\PYG{l+m+mf}{0.5}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{suptitle}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Curvas de ressonância\PYGZsq{}}\PYG{p}{,} \PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{}Altera o tamanho do nome dos eixos}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlabel}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s1}{\PYGZsq{}\PYGZdl{}\PYGZbs{}frac\PYGZob{}\PYGZbs{}omega\PYGZus{}}\PYG{l+s+si}{\PYGZob{}d\PYGZcb{}}\PYG{l+s+s1}{\PYGZcb{}\PYGZob{}\PYGZbs{}omega\PYGZcb{}\PYGZdl{}\PYGZsq{}}\PYG{p}{,} \PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{ylabel}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}I (amplitude)\PYGZsq{}}\PYG{p}{,} \PYG{n}{fontsize}\PYG{o}{=}\PYG{l+m+mi}{20}\PYG{p}{)}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{grid}\PYG{p}{()}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{legend}\PYG{p}{()} \PYG{c+c1}{\PYGZsh{}exibindo as legends}
+\PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\end{Verbatim}

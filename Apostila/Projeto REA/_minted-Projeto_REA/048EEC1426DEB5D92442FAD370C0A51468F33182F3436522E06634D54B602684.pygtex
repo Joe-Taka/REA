@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Algoritmo para encontrar raízes}
+\PYG{c+c1}{// de um função utilizadndo o método da bissecção}
+\PYG{c+c1}{// Escreva aqui a função de uma variável}
+\PYG{k}{function}\PYG{+w}{ }y \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{f}\PYG{p}{(}x\PYG{p}{);}
+\PYG{n}{y} \PYG{p}{=} \PYG{p}{(}\PYG{l+m+mf}{668.06}\PYG{o}{/}\PYG{n}{x}\PYG{p}{)}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n+nb}{exp}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mf}{0.146843}\PYG{o}{*}\PYG{n}{x}\PYG{p}{))} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{40}
+\PYG{k}{endfunction}
+
+\PYG{k}{function}\PYG{+w}{ }\PYG{n+nf}{acha\PYGZus{}raiz}\PYG{p}{(}lim\PYGZus{}inf, lim\PYGZus{}sup, erro\PYG{p}{)}
+\PYG{c+c1}{//encontra a raiz aproximada de uma função,}
+\PYG{c+c1}{//quando fornecido o limite inferior,}
+\PYG{c+c1}{//o superior e o erro aceitável}
+	\PYG{k}{while} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+		\PYG{n}{raiz} \PYG{p}{=} \PYG{p}{(}\PYG{n}{lim\PYGZus{}inf} \PYG{o}{+} \PYG{n}{lim\PYGZus{}sup}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}
+\PYG{c+c1}{//caso o intervalor encontrado seja menor}
+\PYG{c+c1}{//que o erro informado, achamos a raiz}
+		\PYG{k}{if} \PYG{n+nb}{abs}\PYG{p}{(}\PYG{n}{lim\PYGZus{}sup} \PYG{o}{\PYGZhy{}} \PYG{n}{lim\PYGZus{}inf}\PYG{p}{)} \PYG{o}{\PYGZlt{}} \PYG{n}{erro} \PYG{n+nb}{then}
+			\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Raiz aproximada encontrada:\PYGZdq{}}\PYG{p}{)}
+			\PYG{n}{x} \PYG{p}{=} \PYG{p}{(}\PYG{n}{lim\PYGZus{}inf}\PYG{o}{+}\PYG{n}{lim\PYGZus{}sup}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}
+			\PYG{k}{break}\PYG{p}{;}
+\PYG{c+c1}{// se esse produto é positivo,}
+\PYG{c+c1}{// significa que a raiz está no intervalor superior}
+		\PYG{k}{elseif} \PYG{n}{f}\PYG{p}{(}\PYG{n}{lim\PYGZus{}inf}\PYG{p}{)}\PYG{o}{*}\PYG{n}{f}\PYG{p}{(}\PYG{n}{raiz}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0} \PYG{n+nb}{then}
+			\PYG{n}{lim\PYGZus{}inf} \PYG{p}{=} \PYG{n}{raiz}\PYG{p}{;}
+\PYG{c+c1}{// se as duas possibilidades acima não estão corretas,}
+\PYG{c+c1}{// só resta que a raiz está no intervalo inferior}
+		\PYG{k}{elseif} \PYG{n}{f}\PYG{p}{(}\PYG{n}{lim\PYGZus{}inf}\PYG{p}{)}\PYG{o}{*}\PYG{n}{f}\PYG{p}{(}\PYG{n}{raiz}\PYG{p}{)} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{0}
+			\PYG{n}{lim\PYGZus{}sup} \PYG{p}{=} \PYG{n}{raiz}
+		\PYG{k}{end}
+	\PYG{k}{end}
+\PYG{c+c1}{// Observe que o intervalo vai sempre sendo diminuído}
+	\PYG{n+nb}{disp}\PYG{p}{(}\PYG{n}{x}\PYG{p}{);}
+\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Valor da função aplicada na raiz aproximada encontrada:\PYGZbs{}ny = \PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{disp}\PYG{p}{(}\PYG{n}{f}\PYG{p}{(}\PYG{n}{x}\PYG{p}{))}
+
+\PYG{k}{endfunction}
+
+\PYG{n}{x} \PYG{p}{=} \PYG{n+nb}{linspace}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{l+m+mi}{20}\PYG{p}{,}\PYG{l+m+mi}{50}\PYG{p}{)}
+\PYG{n}{plot}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,}\PYG{n}{f}\PYG{p}{)}
+\end{Verbatim}

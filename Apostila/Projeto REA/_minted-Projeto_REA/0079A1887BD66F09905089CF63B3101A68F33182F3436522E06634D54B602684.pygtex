@@ -1,0 +1,18 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{from} \PYG{n}{scipy}\PYG{p}{.}\PYG{n+nb}{integrate} \PYG{n}{import} \PYG{n}{quad}
+\PYGZsh{}\PYG{n}{importa} \PYG{n}{a} \PYG{n}{função} \PYG{n}{quad} \PYG{n}{para} \PYG{n}{integrar} \PYG{n}{numericamente} \PYG{n}{uma} \PYG{n}{função}
+
+\PYGZsh{}\PYG{n}{definindo} \PYG{n}{a} \PYG{n}{função} \PYG{n}{em} \PYG{n}{questão} \PYG{n}{para} \PYG{n}{utilizar}
+\PYGZsh{}\PYG{n}{na} \PYG{n}{função} \PYG{n}{quad}
+\PYG{n}{def} \PYG{n}{funcao}\PYG{p}{(}\PYG{n}{T}\PYG{p}{):}
+\PYGZsh{}\PYG{n}{função} \PYG{n}{de} \PYG{n}{Cp} \PYG{n}{para} \PYG{n}{a} \PYG{n}{amônia}
+\PYG{k}{return} \PYG{l+m+mf}{22.626} \PYG{o}{\PYGZhy{}} \PYG{l+m+mf}{0.10075}\PYG{o}{*}\PYG{n}{T} \PYG{o}{+} \PYG{l+m+mf}{0.00019271}\PYG{o}{*}\PYG{p}{(}\PYG{n}{T}\PYG{o}{**}\PYG{l+m+mi}{2}\PYG{p}{)}
+
+\PYGZsh{} \PYG{l+m+mi}{10} °\PYG{n}{C} \PYG{n}{e} \PYG{l+m+mi}{100}°\PYG{n}{C} \PYG{n}{na} \PYG{n}{escala} \PYG{n}{Kelvin} \PYG{n}{respectivamente}
+\PYG{n}{c}\PYG{p}{,} \PYG{n}{erro} \PYG{p}{=} \PYG{n}{quad}\PYG{p}{(}\PYG{n}{funcao}\PYG{p}{,} \PYG{l+m+mi}{283}\PYG{p}{,} \PYG{l+m+mi}{373}\PYG{p}{)}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}o resultado é: \PYGZob{}:f\PYGZcb{} (+\PYGZhy{}\PYGZob{}:g\PYGZcb{})\PYGZdq{}}
+\PYGZsh{} é \PYG{n}{necessário} \PYG{n}{multplicar} \PYG{n}{o} \PYG{n}{resultado}
+\PYGZsh{} \PYG{n}{pelo} \PYG{n}{valor} \PYG{n}{da} \PYG{n}{Constante} \PYG{n}{universal} \PYG{n}{dos} \PYG{n}{gases} \PYG{n}{R} \PYG{p}{=} \PYG{l+m+mf}{8.413}
+\PYG{p}{.}\PYG{n+nb}{format}\PYG{p}{(}\PYG{n}{c}\PYG{o}{*}\PYG{l+m+mf}{8.314}\PYG{p}{,} \PYG{n}{erro}\PYG{p}{))}
+\end{Verbatim}
