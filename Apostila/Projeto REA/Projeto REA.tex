@@ -39,6 +39,9 @@
 \BeforeBeginEnvironment{minted}{\begin{tcolorbox}}%
 \AfterEndEnvironment{minted}{\end{tcolorbox}}%
 
+% numeração de fórmulas
+\usepackage{amsmath}
+%\numberwithin{equation}{section}
 
 %\usepackage{hyperref}% link das res
 \newcommand\tab[1][1cm]{\hspace*{#1}}
@@ -49,8 +52,6 @@
 \newtheorem{mydef}{Definicão}
 
 %\usepackage{balance} 
-
-
 
 % ---------- Preambulo ----------
 \instituicao{ UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ (UTFPR)} % nome da instituicao
@@ -156,13 +157,14 @@
 \input{./capitulos/capitulo13}
 \input{./capitulos/capitulo14}
 \input{./capitulos/capitulo15} %Conclusoes e trabalhos futuros
-
+\input{./capitulos/capitulo16}
 
 
 
 
 %---------- Referencias ----------
 \clearpage % this is need for add +1 to pageref of bibstart used in 'ficha catalografica'.
+
 \label{bibstart}
 \bibliography{reflatex} % geracao automatica das referencias a partir do arquivo reflatex.bib
 \label{bibend}
@@ -176,8 +178,8 @@
 
 
 % % ---------- Anexos (opcionais) ----------
-% \anexo
-% \chapter{Nome do Anexo}
+%\anexo
+%\chapter{Nome do Anexo}
 
 % Use o comando {\ttfamily \textbackslash anexo} e depois comandos {\ttfamily \textbackslash chapter\{\}}
 % para gerar t\'itulos de anexos.

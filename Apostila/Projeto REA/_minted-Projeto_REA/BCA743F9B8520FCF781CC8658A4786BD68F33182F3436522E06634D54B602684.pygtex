@@ -30,7 +30,8 @@
 	\PYG{k}{end}
 \PYG{c+c1}{// Observe que o intervalo vai sempre sendo diminuído}
 	\PYG{n+nb}{disp}\PYG{p}{(}\PYG{n}{x}\PYG{p}{);}
-\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Valor da função aplicada na raiz aproximada encontrada:\PYGZbs{}ny = \PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{printf}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}Valor da função aplicada na raiz}
+\PYG{l+s}{aproximada encontrada:\PYGZbs{}ny = \PYGZdq{}}\PYG{p}{)}
 	\PYG{n+nb}{disp}\PYG{p}{(}\PYG{n}{f}\PYG{p}{(}\PYG{n}{x}\PYG{p}{))}
 
 \PYG{k}{endfunction}

@@ -32,7 +32,10 @@ Na qual $Q_{ij}$ (vazão) representa a saída do reator $i$ alimentando o reator
 
 Para o reator 1, há duas entradas e duas saídas como indicam as setas na figura acima, então o balanço de massa fica:
 
-$$\large Q_{01} c_{01}  + Q_{31} c_{3}  = Q_{15} c_{1}+ Q_{12} c_{1}$$
+\begin{equation}
+\large Q_{01} c_{01}  + Q_{31} c_{3}  = Q_{15} c_{1}+ Q_{12} c_{1}
+\tag{13.1}
+\end{equation}
 
 Vamos aplicar método numérico para resolver situação – problema semelhante da figura acima, onde os valores das vazões são fornecidos, como as concentrações que alimentam os reatores 1 e 3. O objetivo é determinar as concentrações dos 5 reatores ($c1, c2, c3, c4, c5$). 
 As razões fornecidas são: 
@@ -63,7 +66,10 @@ $$\large 4c_{1}  +2c_{2}  -6c_{5}  = 0$$
 
 O sistema acima pode ser reescrito na forma de multiplicação matricial, do tipo:
 
-$$\large Ax + b = 0$$
+\begin{equation}
+\large Ax + b = 0
+\tag{13.2}
+\end{equation}
 
 Onde $A$, no nosso caso, representa a matriz 5x5 dos coeficientes do sistema
 acima, $x$ é o vetor coluna 5x1 com os valores das concentrações que queremos determinar, por último, $b$ é vetor coluna dos componentes independentes.

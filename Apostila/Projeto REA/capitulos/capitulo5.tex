@@ -16,7 +16,10 @@ Como existe um número infinito de valores em qualquer intervalo, não faz senti
 
 É a função $f(x)$  de uma variável aleatória contínua cuja integral em um intervalo dá a probabilidade de que o valor da variável esteja dentro desse mesmo intervalo. Ou seja, \textbf{densidade de probabilidade} não é probabilidade. Somente quando a função for integrada entre dois limites é que ela produzirá uma probabilidade, sendo equivalente à área sob a curva da função densidade de probabilidade entre esses dois limites:
 
-\[\large \int_{a}^{b} f(x)dx = P(a\leq x\leq b)\]
+\begin{equation}
+\large \int_{a}^{b} f(x)dx = P(a\leq x\leq b)
+\tag{4.1}
+\end{equation}
 
 As funções densidade de probabilidade devem sempre obedecer à esses 2 requisitos:
 \begin{itemize}
@@ -51,7 +54,10 @@ Como já foi dito, a probabilidade de uma observação assumir um valor entre do
 \subsection{Densidade para a distribuição normal}
 Uma variável aleatória contínua X tem distribuição normal se sua função densidade de probabilidade for dada por:
 
-\[ \large p(x) = \frac{1}{\sigma \sqrt{2 \pi  }}e^{-\frac{1}{2} (\frac{x-\mu}{\sigma})^2} \]
+\begin{equation}
+\large p(x) = \frac{1}{\sigma \sqrt{2 \pi  }}e^{-\frac{1}{2} (\frac{x-\mu}{\sigma})^2}
+\tag{4.2}
+\end{equation}
 
 Onde $\sigma$ é o \textbf{desvio padrão} da distribuição e $\mu$ é a \textbf{média}.
 
@@ -67,12 +73,18 @@ O desvio padrão populacional ou amostral é a raiz quadrada da variância popul
 
 \item Quando o conjunto de dados é a população:
 
-\[ \large \sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{i}-\mu )^2} \]
-
+\begin{equation}
+\large \sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_{i}-\mu )^2} 
+\tag{4.3}
+\end{equation}
+	
 \item Quando o conjunto de dados é uma amostra:
 
-\[ \large \sigma = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}(x_{i}-\mu )^2} \]
-
+\begin{equation}
+\large \sigma = \sqrt{\frac{1}{N-1}\sum_{i=1}^{N}(x_{i}-\mu )^2} 
+\tag{4.4}
+\end{equation}
+	
 \end{itemize}
 
 \subsection{Distribuição Normal no Python}
@@ -168,8 +180,11 @@ ax.grid(True)
 
 É a função $F(x)$ que indica a probabilidade de um determinado valor de uma variável aleatória X ser menor ou igual à x. Em termos matemáticos:
 
-\[\large F(x) = P(X \leq x) = \int_{-\infty }^{x}f(x_{i})dx\]
-
+\begin{equation}
+\large F(x) = P(X \leq x) = \int_{-\infty }^{x}f(x_{i})dx
+\tag{4.5}
+\end{equation}
+	
 \subsubsection{Calculando a probabilidade de ocorrência de dados específicos}
 
 Vamos utilizar o conceito de função distribuição acumulada (CDF) e calcular a probabilidade de um valor estar abaixo de -1 ao escolhermos um valor aleatório da distribuição. Essa probabilidade será a área da região apresentada abaixo e terá um valor de aproximadamente $15,87\%$.

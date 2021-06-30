@@ -28,7 +28,10 @@ O valor total da área sob a curva da função $f(x)$ pode ser obtido dividindo 
 
 A Integral de Riemann da função $f(x)$ em relação a $x$ de $a$ para $b$ é: 
 
-\[\large \int_{a}^{b}f(x) \; dx = \lim_{n \rightarrow \infty}\sum_{i=1}^{n} \frac{b-a}{n}f(x_{i-1})\]
+\begin{equation}
+\large \int_{a}^{b}f(x) \; dx = \lim_{n \rightarrow \infty}\sum_{i=1}^{n} \frac{b-a}{n}f(x_{i-1})
+\tag{5.1}
+\end{equation}
 
 A integral corresponde à "área com sinal", isto é, a área acima do eixo $x$ é positiva e a área abaixo do eixo $x$ é negativa.
 
@@ -48,12 +51,18 @@ A função $F(x) = \frac{x^3}{3}$ é a função primitiva de $f(x) = x^2$ uma ve
 
 O \textbf{Teorema Fundamental do Cálculo} diz que se $f(x)$ é uma função contínua em $[a,b]$, a sua integral definida nesse intervalo é a diferença entre as suas funções primitivas $F(x)$ nas extremidades desse intervalo:
 
-\[\large \int_{b}^{a}f(x)\:dx = F(b) - F(a) = F(x)|^{b}_{a} \]
+\begin{equation}
+\large \int_{b}^{a}f(x)\:dx = F(b) - F(a) = F(x)|^{b}_{a}
+\tag{5.2}
+\end{equation}
 
 \subsection{Integral de Riemann utilizando scipy do Python}
-Vamos utilizar a função **quad** da biblioteca Scipy para realizar a integração da função abaixo:
+Vamos utilizar a função \textbf{quad} da biblioteca Scipy para realizar a integração da função abaixo:
 
-\[\large \int_{0}^{4}x^2dx\]
+\begin{equation}
+\large \int_{0}^{4}x^2dx
+\tag{5.3}
+\end{equation}
 
 Para isso, vamos utilizar a função \textbf{lambda} do Python, que permite a criação de funções com número qualquer de argumentos:
 
@@ -72,7 +81,10 @@ O valor retornado pela função é uma tupla, onde o primeiro elemento é o valo
 	integrate.quad(x2, 0, 4)
 \end{minted}
 
-\[\large \int_{0}^{4}x^2dx \cong 21.333\]
+\begin{equation}
+\large \int_{0}^{4}x^2dx \cong 21.333
+\tag{5.4}
+\end{equation}
 
 \subsection{Exemplo por aproximação superior}
 

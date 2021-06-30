@@ -13,7 +13,10 @@ O movimento de um pêndulo oscilante é estudado fazendo se as devidas considera
 
 Este movimento pode ser descrito pela seguinte expressão:
 
-$$\Large \frac{d^2\theta}{dt^2} + \frac{g}{L}sen(\theta) = 0$$
+\begin{equation}
+\Large \frac{d^2\theta}{dt^2} + \frac{g}{L}sen(\theta) = 0
+\tag{9.1}
+\end{equation}
 
 Onde $\theta$ representa o ângulo de deslocamento da esfera em relação a posição de equilíbrio na vertical, $t$  o tempo, $g$ a aceleração da gravidade e $L$ o comprimento do fio.
 
@@ -21,7 +24,10 @@ Temos aqui uma equação diferencial ordinária de 2ª ordem de resolução anal
 
 Para simplificação da resolução é feita a seguinte aproximação: para ângulos pequenos ($\theta \ll 1$),  $sen(\theta)  \approx  \theta$.  A equação se torna então: 
 
-$$\Large \frac{d^2\theta}{dt^2} + \frac{g}{L}\theta = 0$$
+\begin{equation}
+\Large \frac{d^2\theta}{dt^2} + \frac{g}{L}\theta = 0
+\tag{9.2}
+\end{equation}
 
 Entretanto tem – se um desvio considerado do comportamento real desse sistema aplicando – se essa simplificação. Para contornar isso, podemos recorrer a métodos numéricos que fornecem com precisão satisfatória a resolução da equação original (sem a simplificação) supracitada.
 
@@ -29,7 +35,10 @@ Para isso vamos utilizar o software Scilab e sua linguagem para resolver essa ED
 
 $$\Large \frac{d\theta(t)}{dt} = \omega$$
 
-$$\Large \frac{d\omega}{dt} = -\frac{g}{L} sen(\theta(t))$$
+\begin{equation}
+\Large \frac{d\omega}{dt} = -\frac{g}{L} sen(\theta(t))
+\tag{9.3}
+\end{equation}
 
 Sendo assim, aplicamos o método de Euler no sistema para determinar o comportamento de $\theta(t)$ em relação ao tempo:
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  5 JUN 2021 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.8)  30 JUN 2021 17:14
 entering extended mode
 **"./Projeto REA.tex"
 (Projeto REA.tex
@@ -1073,23 +1073,23 @@ LaTeX Warning: Label `fig:OHS1' multiply defined.
 )
 \openout1 = `"Projeto REA.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 92.
+(lastpage)             ! on input line 93.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -1123,38 +1123,38 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 92.
+Package chemgreek Info: Activating mapping `default' on line 93.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 94.
+ 95.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 94.
+ 95.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 94.
+ 95.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 94.
+ 95.
 
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 
 [1
 
@@ -1162,7 +1162,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 Non-PDF special ignored!
 <special> papersize=210mm,297mm
 {C:/Users/T-Gamer/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 95--95
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 96--96
   $[]$ 
  []
 
@@ -1196,23 +1196,36 @@ Package newfloat Info: Setting Plan B file extension to `loa'... on input line
 ]
 Cap\'{\i }tulo 2.
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 12.
+LaTeX Font Warning: Command \large invalid in math mode on input line 13.
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <0.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <0.6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 [14
 
 ]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 32.
+LaTeX Font Warning: Command \large invalid in math mode on input line 36.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 41.
+LaTeX Font Warning: Command \large invalid in math mode on input line 48.
 
 [15]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 43.
+LaTeX Font Warning: Command \large invalid in math mode on input line 53.
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 6
-7.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 7
+9.
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
@@ -1238,14 +1251,10 @@ LaTeX Font Info:    Font shape `TS1/pcr/m/it' in size <12> not available
 File: ./Imagens/Regressão Linear/RL1.png Graphic file (type png)
 <use ./Imagens/Regressão Linear/RL1.png>
 Package pdftex.def Info: ./Imagens/Regressão Linear/RL1.png  used on input lin
-e 88.
+e 100.
 (pdftex.def)             Requested size: 358.50612pt x 296.96725pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
 
 [16]
 \openout3 = `Projeto_REA.pyg'.
@@ -1257,20 +1266,20 @@ FB4D0D.pygtex) [17 <./Imagens/Regressão Linear/RL1.png>]
 File: ./Imagens/Regressão Linear/RL2.png Graphic file (type png)
 <use ./Imagens/Regressão Linear/RL2.png>
 Package pdftex.def Info: ./Imagens/Regressão Linear/RL2.png  used on input lin
-e 123.
+e 135.
 (pdftex.def)             Requested size: 358.50612pt x 296.96725pt.
  [18]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 130.
+LaTeX Font Warning: Command \large invalid in math mode on input line 142.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-35.
+47.
 (C:\Users\T-Gamer\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [19 <./Imagens/Regressão Linear/RL2.png>]) (capitulos/capitulo3.tex
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 9.
+LaTeX Font Warning: Command \large invalid in math mode on input line 10.
 
 [20]
 \openout3 = `Projeto_REA.pyg'.
@@ -1286,7 +1295,7 @@ Overfull \vbox (118.14503pt too high) has occurred while \output is active []
 File: ./Imagens/Teorema de Bayes/Tabela.png Graphic file (type png)
 <use ./Imagens/Teorema de Bayes/Tabela.png>
 Package pdftex.def Info: ./Imagens/Teorema de Bayes/Tabela.png  used on input l
-ine 67.
+ine 70.
 (pdftex.def)             Requested size: 268.8813pt x 396.24614pt.
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1299,11 +1308,11 @@ FB4D0D.pygtex) [23 <./Imagens/Teorema de Bayes/Tabela.png>]
 (_minted-Projeto_REA/D62B2968ED741AA539DCEEA0C48B24187448588429FAB49624D8BB8680
 FB4D0D.pygtex) [24]) (capitulos/capitulo4.tex [25]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 39.
+LaTeX Font Warning: Command \large invalid in math mode on input line 46.
 
 [26]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 54.
+LaTeX Font Warning: Command \large invalid in math mode on input line 64.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1319,14 +1328,14 @@ FB4D0D.pygtex) [29]
 File: ./Imagens/Transformada de Fourier/TF1.png Graphic file (type png)
 <use ./Imagens/Transformada de Fourier/TF1.png>
 Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF1.png  used on inp
-ut line 118.
+ut line 130.
 (pdftex.def)             Requested size: 448.13095pt x 244.90036pt.
  [30 <./Imagens/Transformada de Fourier/TF1.png>]
 <./Imagens/Transformada de Fourier/TF2.png, id=104, 544.0325pt x 318.18875pt>
 File: ./Imagens/Transformada de Fourier/TF2.png Graphic file (type png)
 <use ./Imagens/Transformada de Fourier/TF2.png>
 Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF2.png  used on inp
-ut line 129.
+ut line 141.
 (pdftex.def)             Requested size: 448.13095pt x 262.11082pt.
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1337,7 +1346,7 @@ FB4D0D.pygtex) [31 <./Imagens/Transformada de Fourier/TF2.png>]
 File: ./Imagens/Transformada de Fourier/TF3.png Graphic file (type png)
 <use ./Imagens/Transformada de Fourier/TF3.png>
 Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF3.png  used on inp
-ut line 172.
+ut line 184.
 (pdftex.def)             Requested size: 448.13095pt x 189.91296pt.
  [32]
 \openout3 = `Projeto_REA.pyg'.
@@ -1359,7 +1368,7 @@ FB4D0D.pygtex) [35]
 File: ./Imagens/Transformada de Fourier/TF4.png Graphic file (type png)
 <use ./Imagens/Transformada de Fourier/TF4.png>
 Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF4.png  used on inp
-ut line 279.
+ut line 291.
 (pdftex.def)             Requested size: 448.13095pt x 300.96219pt.
  [36]
 \openout3 = `Projeto_REA.pyg'.
@@ -1371,30 +1380,30 @@ FB4D0D.pygtex) [37 <./Imagens/Transformada de Fourier/TF4.png>]
 File: ./Imagens/Transformada de Fourier/TF5.png Graphic file (type png)
 <use ./Imagens/Transformada de Fourier/TF5.png>
 Package pdftex.def Info: ./Imagens/Transformada de Fourier/TF5.png  used on inp
-ut line 314.
+ut line 326.
 (pdftex.def)             Requested size: 448.13095pt x 192.6046pt.
  [38])
 (capitulos/capitulo5.tex [39 <./Imagens/Transformada de Fourier/TF5.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 19.
+LaTeX Font Warning: Command \large invalid in math mode on input line 20.
 
 [40]
 <./Imagens/Distribuição Normal/GA1.png, id=144, 578.16pt x 354.32375pt>
 File: ./Imagens/Distribuição Normal/GA1.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA1.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA1.png  used on input
- line 46.
+ line 49.
 (pdftex.def)             Requested size: 448.13095pt x 274.63591pt.
  [41]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 54.
+LaTeX Font Warning: Command \large invalid in math mode on input line 58.
 
 [42 <./Imagens/Distribuição Normal/GA1.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 70.
+LaTeX Font Warning: Command \large invalid in math mode on input line 77.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 74.
+LaTeX Font Warning: Command \large invalid in math mode on input line 84.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1405,7 +1414,7 @@ FB4D0D.pygtex) [43]
 File: ./Imagens/Distribuição Normal/GA2.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA2.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA2.png  used on input
- line 104.
+ line 116.
 (pdftex.def)             Requested size: 448.13095pt x 296.09319pt.
  [44]
 \openout3 = `Projeto_REA.pyg'.
@@ -1417,7 +1426,7 @@ FB4D0D.pygtex) [45 <./Imagens/Distribuição Normal/GA2.png>]
 File: ./Imagens/Distribuição Normal/GA3.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA3.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA3.png  used on input
- line 133.
+ line 145.
 (pdftex.def)             Requested size: 448.13095pt x 296.09319pt.
  [46]
 \openout3 = `Projeto_REA.pyg'.
@@ -1429,17 +1438,17 @@ FB4D0D.pygtex) [47 <./Imagens/Distribuição Normal/GA3.png>]
 File: ./Imagens/Distribuição Normal/GA4.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA4.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA4.png  used on input
- line 162.
+ line 174.
 (pdftex.def)             Requested size: 448.13095pt x 296.09319pt.
  [48]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 171.
+LaTeX Font Warning: Command \large invalid in math mode on input line 184.
 
 <./Imagens/Distribuição Normal/GA5.png, id=177, 508.90125pt x 332.24126pt>
 File: ./Imagens/Distribuição Normal/GA5.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA5.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA5.png  used on input
- line 179.
+ line 194.
 (pdftex.def)             Requested size: 448.13095pt x 292.58105pt.
 [49 <./Imagens/Distribuição Normal/GA4.png>]
 \openout3 = `Projeto_REA.pyg'.
@@ -1451,7 +1460,7 @@ FB4D0D.pygtex)
 File: ./Imagens/Distribuição Normal/GA6.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA6.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA6.png  used on input
- line 194.
+ line 209.
 (pdftex.def)             Requested size: 448.13095pt x 291.38258pt.
  [50 <./Imagens/Distribuição Normal/GA5.png>]
 \openout3 = `Projeto_REA.pyg'.
@@ -1463,7 +1472,7 @@ FB4D0D.pygtex)
 File: ./Imagens/Distribuição Normal/GA7.png Graphic file (type png)
 <use ./Imagens/Distribuição Normal/GA7.png>
 Package pdftex.def Info: ./Imagens/Distribuição Normal/GA7.png  used on input
- line 212.
+ line 227.
 (pdftex.def)             Requested size: 448.13095pt x 278.8611pt.
  [51 <./Imagens/Distribuição Normal/GA6.png>]
 \openout3 = `Projeto_REA.pyg'.
@@ -1487,14 +1496,14 @@ ine 22.
 (pdftex.def)             Requested size: 358.50612pt x 297.66306pt.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 31.
+LaTeX Font Warning: Command \large invalid in math mode on input line 32.
 
 [54 <./Imagens/Integral de Riemann/RI2.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 51.
+LaTeX Font Warning: Command \large invalid in math mode on input line 55.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 56.
+LaTeX Font Warning: Command \large invalid in math mode on input line 63.
 
 [55]
 \openout3 = `Projeto_REA.pyg'.
@@ -1508,10 +1517,8 @@ FB4D0D.pygtex)
 (_minted-Projeto_REA/AC95E78F50C4CEB35F799B998DC179A97448588429FAB49624D8BB8680
 FB4D0D.pygtex)
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 75.
+LaTeX Font Warning: Command \large invalid in math mode on input line 85.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 \openout3 = `Projeto_REA.pyg'.
 
 
@@ -1521,7 +1528,7 @@ FB4D0D.pygtex) [56]
 File: ./Imagens/Integral de Riemann/RI3.png Graphic file (type png)
 <use ./Imagens/Integral de Riemann/RI3.png>
 Package pdftex.def Info: ./Imagens/Integral de Riemann/RI3.png  used on input l
-ine 108.
+ine 120.
 (pdftex.def)             Requested size: 358.50612pt x 266.6483pt.
  [57]
 \openout3 = `Projeto_REA.pyg'.
@@ -1538,7 +1545,7 @@ FB4D0D.pygtex) [59]
 File: ./Imagens/Integral de Riemann/RI4.png Graphic file (type png)
 <use ./Imagens/Integral de Riemann/RI4.png>
 Package pdftex.def Info: ./Imagens/Integral de Riemann/RI4.png  used on input l
-ine 173.
+ine 185.
 (pdftex.def)             Requested size: 358.50612pt x 266.6483pt.
  [60]
 \openout3 = `Projeto_REA.pyg'.
@@ -1557,23 +1564,23 @@ Package pdftex.def Info: ./Imagens/Oscilador/OH1.png  used on input line 14.
 LaTeX Font Warning: Command \large invalid in math mode on input line 27.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 41.
+LaTeX Font Warning: Command \large invalid in math mode on input line 42.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 47.
+LaTeX Font Warning: Command \large invalid in math mode on input line 50.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 51.
+LaTeX Font Warning: Command \large invalid in math mode on input line 55.
 
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 53.
-
-[64]
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 59.
 
+[64]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 79.
+LaTeX Font Warning: Command \large invalid in math mode on input line 66.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 89.
 
 [65]
 \openout3 = `Projeto_REA.pyg'.
@@ -1588,7 +1595,7 @@ Overfull \vbox (98.95988pt too high) has occurred while \output is active []
 <./Imagens/Oscilador/OH2.png, id=254, 612.2875pt x 467.7475pt>
 File: ./Imagens/Oscilador/OH2.png Graphic file (type png)
 <use ./Imagens/Oscilador/OH2.png>
-Package pdftex.def Info: ./Imagens/Oscilador/OH2.png  used on input line 140.
+Package pdftex.def Info: ./Imagens/Oscilador/OH2.png  used on input line 152.
 (pdftex.def)             Requested size: 358.50612pt x 273.87027pt.
 ) (capitulos/capitulo8.tex [68 <./Imagens/Oscilador/OH2.png>]
 <./Imagens/RLC/rlc1.png, id=259, 391.4625pt x 158.5925pt>
@@ -1598,29 +1605,29 @@ Package pdftex.def Info: ./Imagens/RLC/rlc1.png  used on input line 11.
 (pdftex.def)             Requested size: 358.50612pt x 145.24863pt.
  [69 <./Imagens/RLC/rlc1.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 30.
+LaTeX Font Warning: Command \large invalid in math mode on input line 31.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 34.
+LaTeX Font Warning: Command \large invalid in math mode on input line 38.
 
 [70]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 48.
+LaTeX Font Warning: Command \large invalid in math mode on input line 55.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 50.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 54.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 58.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 62.
+LaTeX Font Warning: Command \large invalid in math mode on input line 59.
 
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 64.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 71.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 78.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 82.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1630,24 +1637,24 @@ FB4D0D.pygtex) [71]
 <./Imagens/RLC/rlc2.png, id=270, 518.93875pt x 323.2075pt>
 File: ./Imagens/RLC/rlc2.png Graphic file (type png)
 <use ./Imagens/RLC/rlc2.png>
-Package pdftex.def Info: ./Imagens/RLC/rlc2.png  used on input line 98.
+Package pdftex.def Info: ./Imagens/RLC/rlc2.png  used on input line 116.
 (pdftex.def)             Requested size: 358.50612pt x 223.29945pt.
  [72]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 107.
+LaTeX Font Warning: Command \large invalid in math mode on input line 126.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 113.
+LaTeX Font Warning: Command \large invalid in math mode on input line 135.
 
 [73 <./Imagens/RLC/rlc2.png>]
 <./Imagens/RLC/rlc3.png, id=279, 387.4475pt x 394.47375pt>
 File: ./Imagens/RLC/rlc3.png Graphic file (type png)
 <use ./Imagens/RLC/rlc3.png>
-Package pdftex.def Info: ./Imagens/RLC/rlc3.png  used on input line 126.
+Package pdftex.def Info: ./Imagens/RLC/rlc3.png  used on input line 150.
 (pdftex.def)             Requested size: 224.06548pt x 228.13281pt.
  [74 <./Imagens/RLC/rlc3.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 135.
+LaTeX Font Warning: Command \large invalid in math mode on input line 160.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1661,46 +1668,50 @@ Overfull \vbox (32.27869pt too high) has occurred while \output is active []
 <./Imagens/RLC/rlc4.png, id=290, 626.34pt x 372.39125pt>
 File: ./Imagens/RLC/rlc4.png Graphic file (type png)
 <use ./Imagens/RLC/rlc4.png>
-Package pdftex.def Info: ./Imagens/RLC/rlc4.png  used on input line 178.
+Package pdftex.def Info: ./Imagens/RLC/rlc4.png  used on input line 205.
 (pdftex.def)             Requested size: 358.50612pt x 213.15732pt.
 ) (capitulos/capitulo9.tex
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 7.
+LaTeX Font Warning: Command \large invalid in math mode on input line 8.
 
 [77 <./Imagens/RLC/rlc4.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 9.
+LaTeX Font Warning: Command \large invalid in math mode on input line 13.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 14.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 21.
 
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 20.
+LaTeX Font Warning: Command \large invalid in math mode on input line 31.
 
 <./Imagens/OHS/ohs1.png, id=295, 173.64874pt x 160.6pt>
 File: ./Imagens/OHS/ohs1.png Graphic file (type png)
 <use ./Imagens/OHS/ohs1.png>
-Package pdftex.def Info: ./Imagens/OHS/ohs1.png  used on input line 30.
+Package pdftex.def Info: ./Imagens/OHS/ohs1.png  used on input line 43.
 (pdftex.def)             Requested size: 224.06548pt x 207.2361pt.
 [78]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 37.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 51.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 41.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 58.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 49.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 69.
 
 [79 <./Imagens/OHS/ohs1.png>]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 53.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 73.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 57.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 78.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 59.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 83.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1719,23 +1730,23 @@ Package pdftex.def Info: ./Imagens/Pendulo simples/ps1.png  used on input line
 (pdftex.def)             Requested size: 358.50612pt x 224.07555pt.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 16.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 17.
 
 [82 <./Imagens/Pendulo simples/ps1.png>]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 24.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 28.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 28.
+LaTeX Font Warning: Command \large invalid in math mode on input line 34.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 28.
+LaTeX Font Warning: Command \large invalid in math mode on input line 34.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 30.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 36.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 32.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 39.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1743,33 +1754,33 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 32.
 (_minted-Projeto_REA/D6A757E5C822825DEC952FCFA4138D4C68F33182F3436522E06634D54B
 602684.pygtex)) (capitulos/capitulo11.tex [83] [84]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 7.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 8.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 15.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 19.
 
 [85]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 29.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 36.
 
 <./Imagens/Bissec/bi1.png, id=325, 306.14375pt x 229.85875pt>
 File: ./Imagens/Bissec/bi1.png Graphic file (type png)
 <use ./Imagens/Bissec/bi1.png>
-Package pdftex.def Info: ./Imagens/Bissec/bi1.png  used on input line 35.
+Package pdftex.def Info: ./Imagens/Bissec/bi1.png  used on input line 44.
 (pdftex.def)             Requested size: 224.06548pt x 168.23389pt.
 [86 <./Imagens/Bissec/bi1.png>]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 46.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 56.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 50.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 62.
 
 \openout3 = `Projeto_REA.pyg'.
 
 
-(_minted-Projeto_REA/048EEC1426DEB5D92442FAD370C0A51468F33182F3436522E06634D54B
+(_minted-Projeto_REA/BCA743F9B8520FCF781CC8658A4786BD68F33182F3436522E06634D54B
 602684.pygtex) [87]
-Overfull \vbox (118.62498pt too high) has occurred while \output is active []
+Overfull \vbox (138.20007pt too high) has occurred while \output is active []
 
 
 [88]
@@ -1779,14 +1790,14 @@ Overfull \vbox (118.62498pt too high) has occurred while \output is active []
 (_minted-Projeto_REA/6018B9E5E8BB2DF5492D9D44A04E072268F33182F3436522E06634D54B
 602684.pygtex)) (capitulos/capitulo12.tex
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 7.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 8.
 
 [89]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 15.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 19.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 17.
+LaTeX Font Warning: Command \large invalid in math mode on input line 23.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1800,24 +1811,24 @@ Overfull \vbox (58.10573pt too high) has occurred while \output is active []
 <./Imagens/Idealidade/ide1.png, id=346, 573.14125pt x 245.91875pt>
 File: ./Imagens/Idealidade/ide1.png Graphic file (type png)
 <use ./Imagens/Idealidade/ide1.png>
-Package pdftex.def Info: ./Imagens/Idealidade/ide1.png  used on input line 62.
+Package pdftex.def Info: ./Imagens/Idealidade/ide1.png  used on input line 68.
 (pdftex.def)             Requested size: 358.50612pt x 153.82642pt.
 ) (capitulos/capitulo13.tex
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 5.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 6.
 
 [92 <./Imagens/Idealidade/ide1.png>]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 16.
-
-
-LaTeX Font Warning: Command \Large invalid in math mode on input line 28.
-
-
-LaTeX Font Warning: Command \Large invalid in math mode on input line 32.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 20.
 
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 34.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 39.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 43.
 
 [93]
 \openout3 = `Projeto_REA.pyg'.
@@ -1847,48 +1858,48 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 31.
 
 [95 <./Imagens/Sistema de eq/sis1.png> <./Imagens/Sistema de eq/sis2.png>]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 35.
+LaTeX Font Warning: Command \large invalid in math mode on input line 36.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 41.
+LaTeX Font Warning: Command \large invalid in math mode on input line 44.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 45.
+LaTeX Font Warning: Command \large invalid in math mode on input line 48.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 49.
+LaTeX Font Warning: Command \large invalid in math mode on input line 52.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 54.
+LaTeX Font Warning: Command \large invalid in math mode on input line 57.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 56.
+LaTeX Font Warning: Command \large invalid in math mode on input line 59.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 58.
+LaTeX Font Warning: Command \large invalid in math mode on input line 61.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 60.
+LaTeX Font Warning: Command \large invalid in math mode on input line 63.
 
 [96]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 62.
+LaTeX Font Warning: Command \large invalid in math mode on input line 65.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 66.
+LaTeX Font Warning: Command \large invalid in math mode on input line 70.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 71.
+LaTeX Font Warning: Command \large invalid in math mode on input line 77.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 73.
+LaTeX Font Warning: Command \large invalid in math mode on input line 79.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 75.
+LaTeX Font Warning: Command \large invalid in math mode on input line 81.
 
 [97]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 77.
+LaTeX Font Warning: Command \large invalid in math mode on input line 83.
 
 \openout3 = `Projeto_REA.pyg'.
 
@@ -1896,7 +1907,11 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 77.
 (_minted-Projeto_REA/2E6C13A5E73CB339787E0036F0D498C068F33182F3436522E06634D54B
 602684.pygtex)) (capitulos/capitulo15.tex [98]
 Cap\'{\i }tulo 3.
-) [99
+) (capitulos/capitulo16.tex [99
+
+]
+Cap\'{\i }tulo 4.
+) [100
 
 ]
 No file "Projeto REA".bbl.
@@ -1914,11 +1929,11 @@ runsystem(del Projeto_REA.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23654 strings out of 479321
- 476056 string characters out of 2855630
- 859988 words of memory out of 3000000
- 40346 multiletter control sequences out of 15000+600000
- 452242 words of font info for 139 fonts, out of 8000000 for 9000
+ 23728 strings out of 479321
+ 477040 string characters out of 2855630
+ 859992 words of memory out of 3000000
+ 40393 multiletter control sequences out of 15000+600000
+ 478881 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  111i,9n,116p,1004b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/T-Gamer/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
@@ -1935,9 +1950,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/T-Gamer/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/T-Gamer/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/T-Gamer/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Projeto REA.pdf" (94 pages, 1195904 bytes).
+Output written on "Projeto REA.pdf" (95 pages, 1199431 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
+ 422 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

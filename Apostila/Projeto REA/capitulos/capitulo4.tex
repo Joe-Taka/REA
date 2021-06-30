@@ -18,9 +18,15 @@ Os sinais traduzem a evolução de uma grandeza ao longo do tempo ou espaço e p
 
 Um sinal diz-se contínuo se o seu domínio for IR ou um intervalo contínuo de IR. Assim:
 
-\[ x: IR \rightarrow IR \]
-
-\[ x: [a,b] \rightarrow IR \]
+\begin{equation}
+x: IR \rightarrow IR 
+\tag{3.1}
+\end{equation}
+	
+\begin{equation}
+x: [a,b] \rightarrow IR
+\tag{3.2} 
+\end{equation}
 
 - Sinais contínuos são sinais que não possuem espaços distinguíveis entre os seus valores.
 - Advém de grandezas que podem ser medidas.
@@ -36,7 +42,10 @@ Um sinal diz-se contínuo se o seu domínio for IR ou um intervalo contínuo de 
 \subsubsection{Sinais periódicos}
 Um sinal discreto x(n) é periódico com período $N \ \in \ IN$ se:
 
-\[ \large x(n + N) = x(n), \forall \ n \ \in Z \]
+\begin{equation}
+\large x(n + N) = x(n), \forall \ n \ \in Z
+\tag{3.3}  
+\end{equation}
 
 \subsection {Tipos de Abordagens}
 
@@ -51,7 +60,10 @@ De acordo com o tipo de sinal que estamos lidando, existem 4 diferentes tipos de
 \subsection {Fórmula para Transformada Discreta de Fourier (DFT)}
 Para um sequência finita de valores complexos ou reais $x_{n}$ obtidos pela amostragem de N valores de um sinal contínuo nos instantes $f(0), f(1), f(2), ... f(k), ... f(N-1)$, a Fórmula para a \textbf{Transformada Discreta de Fourier} é: 
 
-\[ \large X_{k} = \sum_{n = 0}^{N-1} x_{n} \cdot e^{-j2\pi\frac{kn}{N}} \]
+\begin{equation}
+\large X_{k} = \sum_{n = 0}^{N-1} x_{n} \cdot e^{-j2\pi\frac{kn}{N}}
+\tag{3.4}  
+\end{equation}
 
 Sendo $x_{n}$ a amplitude (real ou complexo) de um sinal periódico em um instante de tempo $t$. Tais valores são obtidos por amostragem de uma função periódica contínua. O resultado da fórmula é uma série de números complexos no domínio da frequência.
 

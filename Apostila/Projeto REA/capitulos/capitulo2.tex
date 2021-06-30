@@ -9,7 +9,10 @@ Nesta seção serão apresentados os exemplos práticos escolhidos para o projet
 
 Uma regressão linear nada mais é do que uma equação matemática utilizada para se estimar o valor de uma variável \(y\), dados os valores de algumas outras variáveis \(x\). Os modelos de regressão \textbf{simples} envolvem somente duas variáveis: uma independente \(x\) e uma dependente \(y\). Ela é chamada \textbf{linear} poque a relação entre os parâmetros se dá por uma \textbf{função linear} do tipo:
 
-\[ \large F(x) = y = m \cdot x + c \]
+\begin{equation}
+\large F(x) = y = m \cdot x + c
+\tag{1.1} 
+\end{equation}
 
 Onde \(x\) é a variável independente, \(y\) é a variável dependente, \(m\) é o \textbf{coeficiente angular/declive} e \(c\) é o \textbf{coeficiente linear/intercepto}. O parâmetro \(c\) é o valor de \(F(x)\) quando \(x = 0\). O parâmetro \(m\) é a variação em \(F(x)\) quando variamos $x$ em 1 unidade.
 
@@ -29,7 +32,10 @@ O que pretendemos aqui é, a partir de um conjunto de dados $(x,y)$, obter um mo
 
 No contexto de otimização algorítmica, a função que queremos minimizar ou maximizar é denominada \textbf{função objetivo}. Quando queremos minimizá-la, ela é chamada \textbf{função de custo}. A função de custo computa a diferença entre o valor obtido em nosso modelo ($y_{modelo}$) e o valor real ($y_{real}$). \textbf{Entropia cruzada} e \textbf{Erro Quadrático Médio} são os tipos de funções de custo mais comuns. A fórmula para o Erro Quadrático Médio para $n$ amostras de dados é:
 
-\[\large E=\frac{1}{n}\sum_{i=0}^{n}(y_{i,real} - y_{i,modelo})^{2} = \frac{1}{n}\sum_{i=0}^{n}(y_{i,real} - (m \cdot x_{i} + c))^{2}\]
+\begin{equation}
+\large E=\frac{1}{n}\sum_{i=0}^{n}(y_{i,real} - y_{i,modelo})^{2} = \frac{1}{n}\sum_{i=0}^{n}(y_{i,real} - (m \cdot x_{i} + c))^{2}
+\tag{1.2}
+\end{equation}
 
 Em sua essência, o conceito de função de custo é bastante simples: é um método para avaliar o quão bem o seu algoritmo modela o conjunto de dados em estudo. Se as predições estiverem totalmente erradas, a função de custo terá um valor maior. Se as predições estiverem corretas, a função de custo terá um valor menor. Na medida que mudados o nosso algoritmo, a função de custo irá nos dizer se estamos indo para o caminho correto.
 
@@ -38,9 +44,15 @@ Gradiente Descendente é um algoritmo de optimização usado para obter o mínim
 
 Na aplicação do Método do Gradiente, utilizamos as derivadas parciais da função de custo em relação a $m$ e em relação a $c$. O objetivo do método é, então, achar o mínimo global da função de custo a partir dessas derivadas parciais:
 
-\[\large D_{m} = \frac{2}{n}\sum_{i=0}^{n}(y_{i,real} - (m \cdot x_{i} + c))\cdot(-x_{i}) = \frac{-2}{n}\sum_{i=0}^{n}(y_{i,real} - y_{i,modelo})x_{i}\]
+\begin{equation}
+\large D_{m} = \frac{2}{n}\sum_{i=0}^{n}(y_{i,real} - (m \cdot x_{i} + c))\cdot(-x_{i}) = \frac{-2}{n}\sum_{i=0}^{n}(y_{i,real} - y_{i,modelo})x_{i}
+\tag{1.3}
+\end{equation}
 
-\[\large D_{c} = \frac{-2}{n}\sum_{i=0}^{n}(y_{i,real} - y_{i,modelo})\]
+\begin{equation}
+\large D_{c} = \frac{-2}{n}\sum_{i=0}^{n}(y_{i,real} - y_{i,modelo})
+\tag{1.4}
+\end{equation}
 
 % \url{www.tablesgenerator.com}.
 

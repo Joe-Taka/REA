@@ -4,7 +4,10 @@
 
 A raiz de uma $f(x)$ é um valor de $x$ (variável independente) que ao ser substituído na expressão da função, o valor desta se iguala a zero, em outras palavras:
 
-$$\Large f(x) = 0$$
+\begin{equation}
+\Large f(x) = 0
+\tag{10.1}
+\end{equation}
 
 Apesar muitas funções possuírem modos analíticos de encontrar suas raízes, uma parcela considerada de outras funções não contêm tal facilidade. Nesse caso são necessários métodos numéricos para determinar tais valores. Existem vários métodos para determinar as raízes de uma equação, como os métodos intervalares, os métodos abertos, entre outros.
 
@@ -12,7 +15,10 @@ Apesar muitas funções possuírem modos analíticos de encontrar suas raízes, 
 
 Imagine uma função ($v$) que mede a velocidade de um paraquedista de massa m caindo sob a força da aceleração da gravidade:
 
-$$\Large v = \frac{gm}{c}(1-e^{(-\frac{c}{m})t})$$
+\begin{equation}
+\Large v = \frac{gm}{c}(1-e^{(-\frac{c}{m})t})
+\tag{10.2}
+\end{equation}
 
 Sendo $c$ o coeficiente de arrasto e $t$ o tempo em questão. De posse dos valores da massa do paraquedista e do coeficiente de arrasto, é fácil resolver analiticamente essa equação para determinar o valor de $t$ que zera a função, pois $v$ é expressa explicitamente na equação.
 
@@ -26,7 +32,10 @@ O método da bissecção se encaixa no grupo dos métodos intervalares que se ba
 
 Se o valor de um função f(x) muda de sinal em algum ponto do intervalo [a,b], em outras palavras:
 
-$$\Large f(a) \cdot f(b)<0$$
+\begin{equation}
+\Large f(a) \cdot f(b)<0
+\tag{10.3}
+\end{equation}
 
 Obrigatoriamente deve existir pelo menos um valor $\varepsilon$ pertencente a esse intervalo [a,b] que é raiz dessa função.
 
@@ -43,7 +52,10 @@ Na prática, não temos o valor da raiz exata, afinal esse é o intuito do méto
 
 Podemos utilizar o método acima para resolver o problema do paraquedista mencionado anteriormente.  Para isso, precisamos rearranjar a equação (14) subtraindo $v$ de ambos os lados. Chamamos, então, essa função de $f(c)$:
 
-$$\Large f(c) = \frac{gm}{c}(1-e^{(-\frac{c}{m})t}) - v$$
+\begin{equation}
+\Large f(c) = \frac{gm}{c}(1-e^{(-\frac{c}{m})t}) - v
+\tag{10.4}
+\end{equation}
 
 Imaginando um paraquedista de 68.1 kg caindo a uma velocidade de 40 m/s no tempo t = 10s e adotando a aceleração da gravidade como 9.81m/s², temos que a equação passa a ser:
 
@@ -81,7 +93,8 @@ function acha_raiz(lim_inf, lim_sup, erro)
 	end
 // Observe que o intervalo vai sempre sendo diminuído
 	disp(x);
-printf("Valor da função aplicada na raiz aproximada encontrada:\ny = ")
+printf("Valor da função aplicada na raiz 
+aproximada encontrada:\ny = ")
 	disp(f(x))
 
 endfunction
